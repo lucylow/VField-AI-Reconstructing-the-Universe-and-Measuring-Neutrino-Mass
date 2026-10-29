@@ -1,0 +1,57 @@
+experiment:
+  name: toy_ai_feature_demo
+  seed: 42
+  simulator_status: toy
+  scientific_claims_allowed: false
+
+data:
+  n_samples: 600
+  observation_noise: 0.08
+  domain_shift: 0.0
+  target_names: [latent_a, latent_b, latent_c]
+  target_units: dimensionless
+  group_key: parent_simulation_id
+
+split:
+  train_fraction: 0.60
+  validation_fraction: 0.15
+  variance_calibration_fraction: 0.05
+  conformal_calibration_fraction: 0.05
+  test_fraction: 0.15
+  group_disjoint: true
+  stratifier: latent_a
+  n_quantile_bins: 5
+
+model:
+  family: residual_mlp_heteroscedastic
+  embedding_dim: 64
+  hidden_width: 96
+  residual_blocks: 2
+  dropout: 0.05
+  output_distribution: diagonal_gaussian
+
+training:
+  max_epochs: 50
+  patience: 16
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  seed: 42
+  deterministic: true
+  early_stopping_metric: val_loss
+
+calibration:
+  variance_temperature_fit_partition: variance_calibration
+  conformal_radius_fit_partition: conformal_calibration
+  alpha: 0.10
+  calibration_groups_must_be_disjoint: true
+
+evaluation:
+  test_partition_locked: true
+  metrics: [rmse, mae, bias, gaussian_nll, coverage_68, coverage_95]
+  compare_to: [gaussian_process_emulator, kernel_posterior, classical_summary_likelihood]
+
+warnings:
+  - This configuration creates a synthetic nonlinear inverse problem, not a cosmological simulation.
+  - The `nufield-ai demo` command is executable; this YAML is a documented research plan, not auto-loaded by that CLI.

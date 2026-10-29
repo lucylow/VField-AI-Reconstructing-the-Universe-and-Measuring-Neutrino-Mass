@@ -1,0 +1,125 @@
+{
+  "coverage_diagnostic": {
+    "coverage_0.50": [
+      0.375,
+      0.625,
+      0.75,
+      0.25,
+      0.625,
+      0.625
+    ],
+    "coverage_0.68": [
+      0.625,
+      0.75,
+      0.875,
+      0.375,
+      0.75,
+      0.625
+    ],
+    "coverage_0.95": [
+      0.875,
+      0.875,
+      0.875,
+      0.75,
+      1.0,
+      0.75
+    ]
+  },
+  "feature_note": "Radial log power from toy galaxy overdensity; not a survey estimator.",
+  "figures": [
+    "examples/sample_output/benchmark/figures/prediction_sum_mnu_ev.png",
+    "examples/sample_output/benchmark/figures/prediction_omega_m.png",
+    "examples/sample_output/benchmark/figures/prediction_sigma8.png",
+    "examples/sample_output/benchmark/figures/prediction_h.png",
+    "examples/sample_output/benchmark/figures/prediction_n_s.png",
+    "examples/sample_output/benchmark/figures/prediction_bias.png"
+  ],
+  "mean_bias": {
+    "bias": -0.08953194320201874,
+    "h": 0.0033226609230041504,
+    "n_s": 0.013665132224559784,
+    "omega_m": 0.009087219834327698,
+    "sigma8": -0.008509300649166107,
+    "sum_mnu_ev": -0.032447862438857555
+  },
+  "mean_effective_particle_count": 14.602113723754883,
+  "median_absolute_error": {
+    "bias": 0.2537761330604553,
+    "h": 0.03431713581085205,
+    "n_s": 0.02112707495689392,
+    "omega_m": 0.015325158834457397,
+    "sigma8": 0.02474033832550049,
+    "sum_mnu_ev": 0.0651702955365181
+  },
+  "median_nearest_distance": 2.5478681325912476,
+  "method": {
+    "algorithm": "standardized-feature Gaussian kernel weighted particles",
+    "bandwidth": 1.0,
+    "n_training_particles": 26,
+    "physics_level": "toy",
+    "posterior_status": "approximate; not calibrated by default",
+    "top_k": 128
+  },
+  "n_test": 8,
+  "n_train": 26,
+  "n_validation_held_out": 6,
+  "parameter_names": [
+    "sum_mnu_ev",
+    "omega_m",
+    "sigma8",
+    "h",
+    "n_s",
+    "bias"
+  ],
+  "physics_level": "toy",
+  "scientific_interpretation": "Software smoke test only; no cosmological inference claim.",
+  "scientific_warning": "TOY PHYSICS ONLY: outputs are for software validation, not cosmological measurement. The spectrum is phenomenological and is not a validated massive-neutrino model.",
+  "split_disjoint": true,
+  "split_seed": 121,
+  "test_ids": [
+    "toy-000034",
+    "toy-000029",
+    "toy-000001",
+    "toy-000026",
+    "toy-000019",
+    "toy-000006",
+    "toy-000003",
+    "toy-000000"
+  ],
+  "train_ids": [
+    "toy-000032",
+    "toy-000008",
+    "toy-000005",
+    "toy-000037",
+    "toy-000012",
+    "toy-000009",
+    "toy-000004",
+    "toy-000035",
+    "toy-000016",
+    "toy-000036",
+    "toy-000020",
+    "toy-000023",
+    "toy-000025",
+    "toy-000017",
+    "toy-000033",
+    "toy-000018",
+    "toy-000039",
+    "toy-000024",
+    "toy-000002",
+    "toy-000014",
+    "toy-000028",
+    "toy-000013",
+    "toy-000027",
+    "toy-000015",
+    "toy-000010",
+    "toy-000038"
+  ],
+  "validation_ids": [
+    "toy-000022",
+    "toy-000011",
+    "toy-000030",
+    "toy-000031",
+    "toy-000007",
+    "toy-000021"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1.0",
+  "is_synthetic": true,
+  "algorithm": "SHA-256",
+  "files": {
+    "README_DEMO_DATA.md": "87f44eecf06461fff3152f465c318842a5f6f33f7dead584ddf71436789240ea",
+    "ablation_report.json": "7727006fdc2549e24fa177bee0531c659d413e12c21e0faf093489652232ddfb",
+    "benchmark_report.json": "c02f9923c1eb8f3d4ae755949790cbd107706f95a5cab734b7ae1ebeb287cdc4",
+    "bundle.json": "9ab3d8866837774e7f8d90939567e043f0e3d6c616a45a4d1c6e3b9f40d70244",
+    "cmb_summary.csv": "9bba2664be4994f9978428ac27a292a783faaeaabcae29f301f81c148f62a9cd",
+    "cmb_summary.json": "fc23f9fba57337ef2f5f5bdf4931c012c2d308375f86da73ca01ae0acdeef97e",
+    "data_quality_report.json": "bc3bafe1033edf79f5e6ef0cf58eca58da13d40121c2150708b92d836a0c4eea",
+    "dataset.json": "fe7e3d4e15ae7c0b3b535e75914b14b0d3a1d1e69282ca45551eda7db9c61669",
+    "dataset.manifest.json": "591d87d279c3656bf9416c58c97d6010007bf570605974e9e1908af248af35d6",
+    "expansion_history.csv": "6f4e1d40e518de388722c6df563125d5ca211a3532d14dc80e09277f1ab0b219",
+    "expansion_history.json": "fcaa8b016be55fe4b8877fe71ed6603d63b7d6d78d2be24ecf02729724adbb41",
+    "experiment_history.json": "33e1cc01ced79d1e1ed9fd6756050e9cd5a7e6bf4cfecf99d514aa2dffdc3bf4",
+    "field_summary.json": "8242baf6e56de59e6866f43dcdf3a3f5f656a1fc97733357f22d6872237d0893",
+    "lensing_catalog.csv": "856d4a7249e240a80767d17b3315bec4711d9f86bac7284df8221b94a152c518",
+    "lensing_catalog.json": "47664efb989cf857b30c51823742408d8a0ce942730a20f378a8cc09384da46d",
+    "parameter_samples.csv": "1045f056dd3b5790a86c067c0f487b483788718ed19cffc6498e1e9d8da5ea48",
+    "parameter_samples.json": "06d4e58e0dedf331f40c0c673eadd959c6e6a16cea68eec7ed2e15e254754adc",
+    "posterior_chain-1.csv": "e07ae0d8e342c234f58e476e3caeccc4081aff47581ee14595825d62e60ff9f3",
+    "posterior_chain-2.csv": "1b1586df41f6833db9b0ad5b0cbfe789fa7ac1d973d9b0a8e0f3344790676cbd",
+    "posterior_chains.json": "a1f1cfab3f6bc42051f12e514c296aecbffba4deae4068e141a9b4bd4e9fe0d6",
+    "power_spectrum.csv": "9b129d0eba9b129edd1e0e140e8c641323b4d2e435663cdccab2b920d3e4398c",
+    "power_spectrum.json": "71a3dfaad27c31cd0bd9390bf624c046090a85c54ed65e3da59b4d668e6bd470",
+    "survey_catalog.csv": "0b08f81ce29c0436fae18258a0613675e0f083890b7588595ac42a3210257f92",
+    "survey_catalog.json": "a4268d25b2ed1e618314263dde7d96cb121a3d2170e8a9382f7e89a4bee53b28",
+    "validation_report.json": "d7e27fc27a00b999f689b0562e92b57f3a4192ed396b8e1877181bcd8c5f44b1"
+  },
+  "warning": "Hashes establish file integrity only; they do not establish scientific validity."
+}

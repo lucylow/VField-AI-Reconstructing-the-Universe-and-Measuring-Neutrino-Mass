@@ -1,0 +1,15 @@
+{
+  "all_finite": true,
+  "feature_shape": [
+    40,
+    8
+  ],
+  "n_rows": 40,
+  "scientific_warning": "TOY PHYSICS ONLY: outputs are for software validation, not cosmological measurement. The spectrum is phenomenological and is not a validated massive-neutrino model.",
+  "theta_shape": [
+    40,
+    6
+  ],
+  "unique_ids": 40,
+  "valid": true
+}

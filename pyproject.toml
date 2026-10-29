@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nufield-starter"
+version = "0.5.0"
+description = "Reproducible starter research software for cosmological field-level inference experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "BSD-3-Clause" }
+authors = [{ name = "νField contributors" }]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4", "build>=1.2"]
+ml = ["torch>=2.2"]
+sbi = ["torch>=2.2", "sbi>=0.24"]
+data = ["h5py>=3.10", "astropy>=6.0", "zarr>=2.17", "fsspec>=2024.2"]
+cosmology = ["camb>=1.5", "classy>=3.2"]
+
+[project.scripts]
+nufield = "nufield.cli:main"
+nufield-data = "nufield.data_registry.cli:main"
+nufield-train-npe = "nufield.training.cli:main"
+nufield-predict-npe = "nufield.training.predict_npe:main"
+nufield-model = "nufield.models.cli:main"
+nufield-train-regression = "nufield.training.regression_cli:main"
+nufield-model-grid = "nufield.training.model_grid_cli:main"
+nufield-model-cards = "nufield.models.model_cards_cli:main"
+nufield-plan = "nufield.research_plan_cli:main"
+nufield-data-gates = "nufield.data_registry.decision_cli:main"
+nufield-architecture = "nufield.models.architecture_cli:main"
+nufield-dataset-plan = "nufield.data_registry.suitability_cli:main"
+nufield-profile = "nufield.data_registry.profile_cli:main"
+nufield-field-features = "nufield.data_registry.field_features_cli:main"
+nufield-particle-pipeline = "nufield.data_registry.particle_pipeline_cli:main"
+nufield-preflight = "nufield.training.experiment_preflight_cli:main"
+nufield-train-mdn = "nufield.training.mdn_cli:main"
+nufield-mdn-grid = "nufield.training.mdn_grid_cli:main"
+nufield-predict-mdn = "nufield.training.predict_mdn:main"
+nufield-field-pipeline = "nufield.data_registry.field_batch_pipeline_cli:main"
+nufield-classical-mass-grid = "nufield.training.classical_mass_grid_cli:main"
+nufield-product-review = "nufield.data_registry.product_review_cli:main"
+nufield-compare-posteriors = "nufield.benchmarking.posterior_archive_compare_cli:main"
+nufield-profile-hdf5 = "nufield.data_registry.hdf5_profile_cli:main"
+nufield-physics = "nufield.cosmology.physics.cli:main"
+nufield-ai = "nufield.ai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0.0",
+  "field_kind": "one-dimensional illustration slice",
+  "slices": [
+    {
+      "index": 0,
+      "x_fraction": 0.0,
+      "density_contrast_toy": 0.0461855,
+      "velocity_proxy_toy": 0.4015627,
+      "is_synthetic": true
+    },
+    {
+      "index": 1,
+      "x_fraction": 0.016949,
+      "density_contrast_toy": -0.0023803,
+      "velocity_proxy_toy": 0.296895,
+      "is_synthetic": true
+    },
+    {
+      "index": 2,
+      "x_fraction": 0.033898,
+      "density_contrast_toy": 0.2701517,
+      "velocity_proxy_toy": 0.2418466,
+      "is_synthetic": true
+    },
+    {
+      "index": 3,
+      "x_fraction": 0.050847,
+      "density_contrast_toy": 0.08927,
+      "velocity_proxy_toy": 0.1834775,
+      "is_synthetic": true
+    },
+    {
+      "index": 4,
+      "x_fraction": 0.067797,
+      "density_contrast_toy": 0.1769599,
+      "velocity_proxy_toy": 0.0418123,
+      "is_synthetic": true
+    },
+    {
+      "index": 5,
+      "x_fraction": 0.084746,
+      "density_contrast_toy": 0.383988,
+      "velocity_proxy_toy": -0.0134385,
+      "is_synthetic": true
+    },
+    {
+      "index": 6,
+      "x_fraction": 0.101695,
+      "density_contrast_toy": 0.4613881,
+      "velocity_proxy_toy": -0.086972,
+      "is_synthetic": true
+    },
+    {
+      "index": 7,
+      "x_fraction": 0.118644,
+      "density_contrast_toy": 0.2313876,
+      "velocity_proxy_toy": -0.2442845,
+      "is_synthetic": true
+    },
+    {
+      "index": 8,
+      "x_fraction": 0.135593,
+      "density_contrast_toy": 0.3132534,
+      "velocity_proxy_toy": -0.2128152,
+      "is_synthetic": true
+    },
+    {
+      "index": 9,
+      "x_fraction": 0.152542,
+      "density_contrast_toy": -0.1253272,
+      "velocity_proxy_toy": -0.2703824,
+      "is_synthetic": true
+    },
+    {
+      "index": 10,
+      "x_fraction": 0.169492,
+      "density_contrast_toy": 0.0725506,
+      "velocity_proxy_toy": -0.3374616,
+      "is_synthetic": true
+    },
+    {
+      "index": 11,
+      "x_fraction": 0.186441,
+      "density_contrast_toy": 0.3337232,
+      "velocity_proxy_toy": -0.3704583,
+      "is_synthetic": true
+    },
+    {
+      "index": 12,
+      "x_fraction": 0.20339,
+      "density_contrast_toy": 0.2188846,
+      "velocity_proxy_toy": -0.3333859,
+      "is_synthetic": true
+    },
+    {
+      "index": 13,
+      "x_fraction": 0.220339,
+      "density_contrast_toy": -0.2670137,
+      "velocity_proxy_toy": -0.165541,
+      "is_synthetic": true
+    },
+    {
+      "index": 14,
+      "x_fraction": 0.237288,
+      "density_contrast_toy": -0.360151,
+      "velocity_proxy_toy": -0.2006178,
+      "is_synthetic": true
+    },
+    {
+      "index": 15,
+      "x_fraction": 0.254237,
+      "density_contrast_toy": -0.1762925,
+      "velocity_proxy_toy": -0.048714,
+      "is_synthetic": true
+    },
+    {
+      "index": 16,
+      "x_fraction": 0.271186,
+      "density_contrast_toy": -0.4159189,
+      "velocity_proxy_toy": 0.0877644,
+      "is_synthetic": true
+    },
+    {
+      "index": 17,
+      "x_fraction": 0.288136,
+      "density_contrast_toy": -0.4002523,
+      "velocity_proxy_toy": 0.0790242,
+      "is_synthetic": true
+    },
+    {
+      "index": 18,
+      "x_fraction": 0.305085,
+      "density_contrast_toy": -0.3439953,
+      "velocity_proxy_toy": 0.3235906,
+      "is_synthetic": true
+    },
+    {
+      "index": 19,
+      "x_fraction": 0.322034,
+      "density_contrast_toy": -0.5011384,
+      "velocity_proxy_toy": 0.2295746,
+      "is_synthetic": true
+    },
+    {
+      "index": 20,
+      "x_fraction": 0.338983,
+      "density_contrast_toy": -0.2214382,
+      "velocity_proxy_toy": 0.4055494,
+      "is_synthetic": true
+    },
+    {
+      "index": 21,
+      "x_fraction": 0.355932,
+      "density_contrast_toy": -0.081158,
+      "velocity_proxy_toy": 0.3593046,
+      "is_synthetic": true
+    },
+    {
+      "index": 22,
+      "x_fraction": 0.372881,
+      "density_contrast_toy": 0.0853063,
+      "velocity_proxy_toy": 0.2915722,
+      "is_synthetic": true
+    },
+    {
+      "index": 23,
+      "x_fraction": 0.389831,
+      "density_contrast_toy": 0.1079876,
+      "velocity_proxy_toy": 0.3066633,
+      "is_synthetic": true
+    },
+    {
+      "index": 24,
+      "x_fraction": 0.40678,
+      "density_contrast_toy": 0.3819352,
+      "velocity_proxy_toy": 0.2184607,
+      "is_synthetic": true
+    },
+    {
+      "index": 25,
+      "x_fraction": 0.423729,
+      "density_contrast_toy": 0.2120348,
+      "velocity_proxy_toy": 0.0954406,
+      "is_synthetic": true
+    },
+    {
+      "index": 26,
+      "x_fraction": 0.440678,
+      "density_contrast_toy": 0.0967289,
+      "velocity_proxy_toy": 0.0608499,
+      "is_synthetic": true
+    },
+    {
+      "index": 27,
+      "x_fraction": 0.457627,
+      "density_contrast_toy": 0.2004315,
+      "velocity_proxy_toy": -0.1301182,
+      "is_synthetic": true
+    },
+    {
+      "index": 28,
+      "x_fraction": 0.474576,
+      "density_contrast_toy": 0.2594989,
+      "velocity_proxy_toy": -0.2649537,
+      "is_synthetic": true
+    },
+    {
+      "index": 29,
+      "x_fraction": 0.491525,
+      "density_contrast_toy": 0.1793154,
+      "velocity_proxy_toy": -0.1833351,
+      "is_synthetic": true
+    },
+    {
+      "index": 30,
+      "x_fraction": 0.508475,
+      "density_contrast_toy": 0.3095982,
+      "velocity_proxy_toy": -0.2853843,
+      "is_synthetic": true
+    },
+    {
+      "index": 31,
+      "x_fraction": 0.525424,
+      "density_contrast_toy": 0.4139517,
+      "velocity_proxy_toy": -0.3557428,
+      "is_synthetic": true
+    },
+    {
+      "index": 32,
+      "x_fraction": 0.542373,
+      "density_contrast_toy": 0.5068137,
+      "velocity_proxy_toy": -0.3206641,
+      "is_synthetic": true
+    },
+    {
+      "index": 33,
+      "x_fraction": 0.559322,
+      "density_contrast_toy": 0.0692296,
+      "velocity_proxy_toy": -0.2933409,
+      "is_synthetic": true
+    },
+    {
+      "index": 34,
+      "x_fraction": 0.576271,
+      "density_contrast_toy": 0.4578838,
+      "velocity_proxy_toy": -0.2237376,
+      "is_synthetic": true
+    },
+    {
+      "index": 35,
+      "x_fraction": 0.59322,
+      "density_contrast_toy": 0.3333739,
+      "velocity_proxy_toy": -0.1497141,
+      "is_synthetic": true
+    },
+    {
+      "index": 36,
+      "x_fraction": 0.610169,
+      "density_contrast_toy": 0.0717145,
+      "velocity_proxy_toy": -0.0003682,
+      "is_synthetic": true
+    },
+    {
+      "index": 37,
+      "x_fraction": 0.627119,
+      "density_contrast_toy": -0.2025571,
+      "velocity_proxy_toy": 0.0926444,
+      "is_synthetic": true
+    },
+    {
+      "index": 38,
+      "x_fraction": 0.644068,
+      "density_contrast_toy": -0.1662337,
+      "velocity_proxy_toy": 0.1846124,
+      "is_synthetic": true
+    },
+    {
+      "index": 39,
+      "x_fraction": 0.661017,
+      "density_contrast_toy": -0.3202587,
+      "velocity_proxy_toy": 0.2436559,
+      "is_synthetic": true
+    },
+    {
+      "index": 40,
+      "x_fraction": 0.677966,
+      "density_contrast_toy": -0.5918247,
+      "velocity_proxy_toy": 0.3408818,
+      "is_synthetic": true
+    },
+    {
+      "index": 41,
+      "x_fraction": 0.694915,
+      "density_contrast_toy": -0.5827441,
+      "velocity_proxy_toy": 0.4048197,
+      "is_synthetic": true
+    },
+    {
+      "index": 42,
+      "x_fraction": 0.711864,
+      "density_contrast_toy": -0.5331831,
+      "velocity_proxy_toy": 0.4032921,
+      "is_synthetic": true
+    },
+    {
+      "index": 43,
+      "x_fraction": 0.728814,
+      "density_contrast_toy": -0.3109426,
+      "velocity_proxy_toy": 0.383979,
+      "is_synthetic": true
+    },
+    {
+      "index": 44,
+      "x_fraction": 0.745763,
+      "density_contrast_toy": 0.00664,
+      "velocity_proxy_toy": 0.2650622,
+      "is_synthetic": true
+    },
+    {
+      "index": 45,
+      "x_fraction": 0.762712,
+      "density_contrast_toy": -0.1039787,
+      "velocity_proxy_toy": 0.1929747,
+      "is_synthetic": true
+    },
+    {
+      "index": 46,
+      "x_fraction": 0.779661,
+      "density_contrast_toy": -0.1853986,
+      "velocity_proxy_toy": 0.0395672,
+      "is_synthetic": true
+    },
+    {
+      "index": 47,
+      "x_fraction": 0.79661,
+      "density_contrast_toy": -0.1267301,
+      "velocity_proxy_toy": 0.0252717,
+      "is_synthetic": true
+    },
+    {
+      "index": 48,
+      "x_fraction": 0.813559,
+      "density_contrast_toy": -0.0219285,
+      "velocity_proxy_toy": -0.1441289,
+      "is_synthetic": true
+    },
+    {
+      "index": 49,
+      "x_fraction": 0.830508,
+      "density_contrast_toy": 0.1822132,
+      "velocity_proxy_toy": -0.1893384,
+      "is_synthetic": true
+    },
+    {
+      "index": 50,
+      "x_fraction": 0.847458,
+      "density_contrast_toy": 0.2174176,
+      "velocity_proxy_toy": -0.2822982,
+      "is_synthetic": true
+    },
+    {
+      "index": 51,
+      "x_fraction": 0.864407,
+      "density_contrast_toy": 0.088124,
+      "velocity_proxy_toy": -0.3037972,
+      "is_synthetic": true
+    },
+    {
+      "index": 52,
+      "x_fraction": 0.881356,
+      "density_contrast_toy": 0.3381945,
+      "velocity_proxy_toy": -0.3875631,
+      "is_synthetic": true
+    },
+    {
+      "index": 53,
+      "x_fraction": 0.898305,
+      "density_contrast_toy": 0.0540823,
+      "velocity_proxy_toy": -0.2347777,
+      "is_synthetic": true
+    },
+    {
+      "index": 54,
+      "x_fraction": 0.915254,
+      "density_contrast_toy": 0.2676237,
+      "velocity_proxy_toy": -0.2019737,
+      "is_synthetic": true
+    },
+    {
+      "index": 55,
+      "x_fraction": 0.932203,
+      "density_contrast_toy": 0.3719727,
+      "velocity_proxy_toy": -0.1890279,
+      "is_synthetic": true
+    },
+    {
+      "index": 56,
+      "x_fraction": 0.949153,
+      "density_contrast_toy": 0.2633269,
+      "velocity_proxy_toy": -0.1007482,
+      "is_synthetic": true
+    },
+    {
+      "index": 57,
+      "x_fraction": 0.966102,
+      "density_contrast_toy": 0.356632,
+      "velocity_proxy_toy": -0.0076302,
+      "is_synthetic": true
+    },
+    {
+      "index": 58,
+      "x_fraction": 0.983051,
+      "density_contrast_toy": 0.0581354,
+      "velocity_proxy_toy": 0.1169274,
+      "is_synthetic": true
+    },
+    {
+      "index": 59,
+      "x_fraction": 1.0,
+      "density_contrast_toy": 0.0433271,
+      "velocity_proxy_toy": 0.1801155,
+      "is_synthetic": true
+    }
+  ],
+  "grid_shape": [
+    64,
+    64,
+    64
+  ],
+  "values_stored": false,
+  "is_synthetic": true,
+  "scientific_warning": "A summary display pattern, not a volumetric simulation or N-body output."
+}

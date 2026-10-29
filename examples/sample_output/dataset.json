@@ -1,0 +1,96 @@
+{
+  "array_shapes": {
+    "features": [
+      40,
+      8
+    ],
+    "theta": [
+      40,
+      6
+    ]
+  },
+  "box_size_mpc_h": 500.0,
+  "dataset_name": "nufield-toy-dataset",
+  "feature_names": [
+    "log_pk_bin_00",
+    "log_pk_bin_01",
+    "log_pk_bin_02",
+    "log_pk_bin_03",
+    "log_pk_bin_04",
+    "log_pk_bin_05",
+    "log_pk_bin_06",
+    "log_pk_bin_07"
+  ],
+  "feature_units": "log arbitrary toy power units",
+  "grid_size": 8,
+  "limitations": [
+    "No physical Boltzmann transfer functions",
+    "No nonlinear gravitational evolution",
+    "Toy Poisson tracer, no HOD/RSD/real survey mask",
+    "Toy projection is not lensing"
+  ],
+  "mean_counts_per_cell": 4.0,
+  "n_simulations": 40,
+  "parameter_names": [
+    "sum_mnu_ev",
+    "omega_m",
+    "sigma8",
+    "h",
+    "n_s",
+    "bias"
+  ],
+  "parameter_units": {
+    "bias": "dimensionless tracer bias coefficient",
+    "h": "dimensionless H0/100 km s^-1 Mpc^-1",
+    "n_s": "dimensionless",
+    "omega_m": "dimensionless",
+    "sigma8": "dimensionless",
+    "sum_mnu_ev": "eV (toy parameter; physical interpretation disabled in toy mode)"
+  },
+  "physics_level": "toy",
+  "random_seed": 21,
+  "schema_version": "1.0",
+  "scientific_warning": "Phenomenological toy simulation only; not a neutrino-aware cosmology simulator.",
+  "simulation_ids": [
+    "toy-000000",
+    "toy-000001",
+    "toy-000002",
+    "toy-000003",
+    "toy-000004",
+    "toy-000005",
+    "toy-000006",
+    "toy-000007",
+    "toy-000008",
+    "toy-000009",
+    "toy-000010",
+    "toy-000011",
+    "toy-000012",
+    "toy-000013",
+    "toy-000014",
+    "toy-000015",
+    "toy-000016",
+    "toy-000017",
+    "toy-000018",
+    "toy-000019",
+    "toy-000020",
+    "toy-000021",
+    "toy-000022",
+    "toy-000023",
+    "toy-000024",
+    "toy-000025",
+    "toy-000026",
+    "toy-000027",
+    "toy-000028",
+    "toy-000029",
+    "toy-000030",
+    "toy-000031",
+    "toy-000032",
+    "toy-000033",
+    "toy-000034",
+    "toy-000035",
+    "toy-000036",
+    "toy-000037",
+    "toy-000038",
+    "toy-000039"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "report_kind": "synthetic quality summary",
+  "metrics": [
+    {
+      "key": "row-count",
+      "label": "Catalog rows",
+      "value": 150,
+      "unit": "rows",
+      "status": "PASS"
+    },
+    {
+      "key": "missingness",
+      "label": "Masked fraction",
+      "value": 0.073333,
+      "unit": "fraction",
+      "status": "PASS"
+    },
+    {
+      "key": "completeness",
+      "label": "Mean completeness",
+      "value": 0.858088,
+      "unit": "fraction",
+      "status": "PASS"
+    },
+    {
+      "key": "noise",
+      "label": "Configured noise multiplier",
+      "value": 0.9,
+      "unit": "relative toy scale",
+      "status": "PASS"
+    },
+    {
+      "key": "seed",
+      "label": "Reproducibility seed",
+      "value": 91125,
+      "unit": "integer",
+      "status": "PASS"
+    }
+  ],
+  "generated_checks": 5,
+  "is_synthetic": true,
+  "scientific_warning": "These metrics describe generated demo rows only; they say nothing about any real survey."
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0.0",
+  "library_kind": "nufield-synthetic-demo-scenario-library",
+  "scenario_count": 11,
+  "scenarios": [
+    {
+      "output_dir": "baseline",
+      "bundle_path": "baseline/bundle.json",
+      "zip_path": "baseline/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Baseline walkthrough",
+        "seed": 90721,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "low_neutrino",
+      "bundle_path": "low_neutrino/bundle.json",
+      "zip_path": "low_neutrino/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Low toy \u03a3m\u03bd",
+        "seed": 90822,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "high_neutrino",
+      "bundle_path": "high_neutrino/bundle.json",
+      "zip_path": "high_neutrino/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "High toy \u03a3m\u03bd",
+        "seed": 90923,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "noisy_survey",
+      "bundle_path": "noisy_survey/bundle.json",
+      "zip_path": "noisy_survey/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Noisy survey",
+        "seed": 91024,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "WARN",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "calibration_bias",
+      "bundle_path": "calibration_bias/bundle.json",
+      "zip_path": "calibration_bias/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Calibration offset",
+        "seed": 91125,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "WARN",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "domain_shift",
+      "bundle_path": "domain_shift/bundle.json",
+      "zip_path": "domain_shift/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Held-out domain shift",
+        "seed": 91226,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "WARN",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "coverage_failure",
+      "bundle_path": "coverage_failure/bundle.json",
+      "zip_path": "coverage_failure/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Coverage failure",
+        "seed": 91327,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "WARN",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "split_leakage",
+      "bundle_path": "split_leakage/bundle.json",
+      "zip_path": "split_leakage/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Split overlap warning",
+        "seed": 91428,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "FAIL",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "sparse_data",
+      "bundle_path": "sparse_data/bundle.json",
+      "zip_path": "sparse_data/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "Sparse dataset",
+        "seed": 91529,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "high_resolution",
+      "bundle_path": "high_resolution/bundle.json",
+      "zip_path": "high_resolution/nufield-demo-artifacts.zip",
+      "artifact_count": 15,
+      "files_written": 27,
+      "summary": {
+        "scenario": "High-volume dashboard",
+        "seed": 91630,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 15,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    },
+    {
+      "output_dir": "malformed_artifacts",
+      "bundle_path": "malformed_artifacts/bundle.json",
+      "zip_path": "malformed_artifacts/nufield-demo-artifacts.zip",
+      "artifact_count": 16,
+      "files_written": 28,
+      "summary": {
+        "scenario": "Import error states",
+        "seed": 91731,
+        "parameter_rows": 250,
+        "survey_rows": 150,
+        "posterior_trace_rows": 200,
+        "power_spectrum_points": 90,
+        "history_rows": 16,
+        "artifact_count": 16,
+        "validation_status": "PASS",
+        "all_synthetic": true,
+        "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+      }
+    }
+  ],
+  "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results.",
+  "interpretation": "This index only catalogs UI fixtures. It is not a scientific benchmark."
+}

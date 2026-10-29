@@ -1,0 +1,75 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.8295177459716796,
+      "val_loss": 2.9564141035079956,
+      "learning_rate": 0.001,
+      "seconds": 0.029137566999906994,
+      "gradient_norm_mean": 2.782420015335083
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.986136531829834,
+      "val_loss": 2.4321900606155396,
+      "learning_rate": 0.001,
+      "seconds": 0.01594273399996382,
+      "gradient_norm_mean": 2.444404363632202
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.3276031017303467,
+      "val_loss": 1.8159754872322083,
+      "learning_rate": 0.001,
+      "seconds": 0.039328070000010484,
+      "gradient_norm_mean": 3.0820520401000975
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6046099185943603,
+      "val_loss": 0.9330301582813263,
+      "learning_rate": 0.001,
+      "seconds": 0.017159787000309734,
+      "gradient_norm_mean": 4.15978512763977
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6903458952903747,
+      "val_loss": -0.21492330729961395,
+      "learning_rate": 0.001,
+      "seconds": 0.01780324199989991,
+      "gradient_norm_mean": 8.324273204803466
+    },
+    {
+      "epoch": 6,
+      "train_loss": -0.18885287791490554,
+      "val_loss": -1.0920972526073456,
+      "learning_rate": 0.001,
+      "seconds": 0.05494325800009392,
+      "gradient_norm_mean": 17.22950963973999
+    }
+  ],
+  "best_epoch": 6,
+  "best_val_loss": -1.0920972526073456,
+  "stopped_early": false,
+  "device": "cpu",
+  "config": {
+    "max_epochs": 6,
+    "patience": 5,
+    "min_delta": 1e-05,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 5.0,
+    "device": "auto",
+    "seed": 42,
+    "deterministic": true,
+    "amp": false,
+    "scheduler_patience": 4,
+    "scheduler_factor": 0.5,
+    "min_learning_rate": 1e-06,
+    "checkpoint_path": "examples/sample_output/ai_v0_5_demo/best_model.pt",
+    "history_path": "examples/sample_output/ai_v0_5_demo/training_history.json",
+    "early_stopping_metric": "val_loss"
+  },
+  "warning": "Evaluate the selected checkpoint once on a locked, group-disjoint test partition."
+}

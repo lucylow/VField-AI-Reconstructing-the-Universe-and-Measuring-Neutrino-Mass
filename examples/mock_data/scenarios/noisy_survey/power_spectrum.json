@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.0.0",
+  "x_name": "k",
+  "x_unit": "h/Mpc (display label only)",
+  "y_name": "P_toy(k)",
+  "y_unit": "arbitrary units",
+  "transform": "hand-designed display curve; not a physical transfer function",
+  "points": [
+    {
+      "k": 0.01,
+      "p_toy": 0.1742851834,
+      "p_reference_toy": 0.1810618239,
+      "relative_noise": -0.0258242,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01086313,
+      "p_toy": 0.2071518,
+      "p_reference_toy": 0.1959960772,
+      "relative_noise": 0.0703337,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01180076,
+      "p_toy": 0.1986163116,
+      "p_reference_toy": 0.2102652206,
+      "relative_noise": -0.0427754,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01281933,
+      "p_toy": 0.2345281518,
+      "p_reference_toy": 0.223170005,
+      "relative_noise": 0.065686,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.0139258,
+      "p_toy": 0.2399313209,
+      "p_reference_toy": 0.2343903809,
+      "relative_noise": 0.038812,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01512778,
+      "p_toy": 0.247221051,
+      "p_reference_toy": 0.2441781864,
+      "relative_noise": 0.0282647,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01643351,
+      "p_toy": 0.2176349258,
+      "p_reference_toy": 0.2534320785,
+      "relative_noise": -0.1271339,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.01785194,
+      "p_toy": 0.2478952464,
+      "p_reference_toy": 0.2635962673,
+      "relative_noise": -0.0432852,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.0193928,
+      "p_toy": 0.2520401123,
+      "p_reference_toy": 0.2763656417,
+      "relative_noise": -0.0713934,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.02106665,
+      "p_toy": 0.3047558862,
+      "p_reference_toy": 0.2932400603,
+      "relative_noise": 0.0592249,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.02288498,
+      "p_toy": 0.3066266912,
+      "p_reference_toy": 0.3150339234,
+      "relative_noise": -0.007005,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.02486026,
+      "p_toy": 0.3462822772,
+      "p_reference_toy": 0.3414911961,
+      "relative_noise": 0.0356264,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.02700603,
+      "p_toy": 0.3583665945,
+      "p_reference_toy": 0.3711587622,
+      "relative_noise": -0.0128067,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.029337,
+      "p_toy": 0.4081556426,
+      "p_reference_toy": 0.4016196793,
+      "relative_noise": 0.0402858,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.03186917,
+      "p_toy": 0.4019216403,
+      "p_reference_toy": 0.4300871306,
+      "relative_noise": -0.0422306,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.0346199,
+      "p_toy": 0.4392375071,
+      "p_reference_toy": 0.4542345131,
+      "relative_noise": -0.0076666,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.03760806,
+      "p_toy": 0.471898021,
+      "p_reference_toy": 0.4730278758,
+      "relative_noise": 0.02516,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.04085413,
+      "p_toy": 0.4776954796,
+      "p_reference_toy": 0.4872781978,
+      "relative_noise": 0.008852,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.04438038,
+      "p_toy": 0.4845139279,
+      "p_reference_toy": 0.4996740294,
+      "relative_noise": -0.0006245,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.04821099,
+      "p_toy": 0.5192875354,
+      "p_reference_toy": 0.514192682,
+      "relative_noise": 0.0425135,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.05237224,
+      "p_toy": 0.4765153704,
+      "p_reference_toy": 0.534987946,
+      "relative_noise": -0.0790004,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.05689265,
+      "p_toy": 0.5768953059,
+      "p_reference_toy": 0.5650521327,
+      "relative_noise": 0.0575481,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.06180324,
+      "p_toy": 0.6005772702,
+      "p_reference_toy": 0.6050771088,
+      "relative_noise": 0.0300426,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.06713767,
+      "p_toy": 0.6131138772,
+      "p_reference_toy": 0.6529350144,
+      "relative_noise": -0.0236264,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.07293254,
+      "p_toy": 0.6531038907,
+      "p_reference_toy": 0.7040458034,
+      "relative_noise": -0.0334625,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.07922758,
+      "p_toy": 0.6593829225,
+      "p_reference_toy": 0.7526285639,
+      "relative_noise": -0.0851839,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.08606597,
+      "p_toy": 0.7933244746,
+      "p_reference_toy": 0.7935262403,
+      "relative_noise": 0.0462979,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.0934946,
+      "p_toy": 0.7801879169,
+      "p_reference_toy": 0.8240522647,
+      "relative_noise": -0.0067666,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.10156442,
+      "p_toy": 0.8146673645,
+      "p_reference_toy": 0.8452262855,
+      "relative_noise": 0.0137015,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.11033076,
+      "p_toy": 0.8212477872,
+      "p_reference_toy": 0.8618943439,
+      "relative_noise": 0.0047929,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.11985377,
+      "p_toy": 0.9179523529,
+      "p_reference_toy": 0.8815496327,
+      "relative_noise": 0.101144,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.13019873,
+      "p_toy": 0.8970404001,
+      "p_reference_toy": 0.9120971516,
+      "relative_noise": 0.0430856,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.1414366,
+      "p_toy": 0.9135670553,
+      "p_reference_toy": 0.9592042834,
+      "relative_noise": 0.0132673,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.15364444,
+      "p_toy": 0.9343832706,
+      "p_reference_toy": 1.0241060458,
+      "relative_noise": -0.0261515,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.16690599,
+      "p_toy": 0.9806352423,
+      "p_reference_toy": 1.1026852771,
+      "relative_noise": -0.0475146,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.18131217,
+      "p_toy": 1.1064190903,
+      "p_reference_toy": 1.1863036239,
+      "relative_noise": 0.0025266,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.19696181,
+      "p_toy": 1.0966745087,
+      "p_reference_toy": 1.2643006443,
+      "relative_noise": -0.0640517,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.21396221,
+      "p_toy": 1.0664597769,
+      "p_reference_toy": 1.3274761558,
+      "relative_noise": -0.1296747,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.23242997,
+      "p_toy": 1.2701075648,
+      "p_reference_toy": 1.3714362127,
+      "relative_noise": 0.0075341,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.25249175,
+      "p_toy": 1.1941737963,
+      "p_reference_toy": 1.3985962637,
+      "relative_noise": -0.066966,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.27428512,
+      "p_toy": 1.316664131,
+      "p_reference_toy": 1.4179744348,
+      "relative_noise": 0.019431,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.29795955,
+      "p_toy": 1.2664649376,
+      "p_reference_toy": 1.442605017,
+      "relative_noise": -0.031426,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.32367739,
+      "p_toy": 1.3261905829,
+      "p_reference_toy": 1.4852458762,
+      "relative_noise": -0.0097543,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.35161502,
+      "p_toy": 1.394152119,
+      "p_reference_toy": 1.5537490627,
+      "relative_noise": 0.000533,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.38196403,
+      "p_toy": 1.5082906339,
+      "p_reference_toy": 1.6477341461,
+      "relative_noise": 0.0265767,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.41493257,
+      "p_toy": 1.5338133709,
+      "p_reference_toy": 1.7578974227,
+      "relative_noise": -0.0155467,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.45074673,
+      "p_toy": 1.5775820776,
+      "p_reference_toy": 1.8684565958,
+      "relative_noise": -0.0412932,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.48965212,
+      "p_toy": 1.6426332673,
+      "p_reference_toy": 1.9621261333,
+      "relative_noise": -0.0430336,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.53191556,
+      "p_toy": 1.9334639679,
+      "p_reference_toy": 2.026031875,
+      "relative_noise": 0.0985809,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.5778269,
+      "p_toy": 1.7363484227,
+      "p_reference_toy": 2.0564893952,
+      "relative_noise": -0.0207965,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.62770098,
+      "p_toy": 1.8390591344,
+      "p_reference_toy": 2.0608195961,
+      "relative_noise": 0.0430575,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.68187986,
+      "p_toy": 1.7319510874,
+      "p_reference_toy": 2.0553273387,
+      "relative_noise": -0.0069396,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.74073509,
+      "p_toy": 1.6421883646,
+      "p_reference_toy": 2.0599215209,
+      "relative_noise": -0.052346,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.80467031,
+      "p_toy": 1.6868063031,
+      "p_reference_toy": 2.0911256678,
+      "relative_noise": -0.0323531,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.87412398,
+      "p_toy": 1.8382728591,
+      "p_reference_toy": 2.1559293861,
+      "relative_noise": 0.0326897,
+      "is_synthetic": true
+    },
+    {
+      "k": 0.94957241,
+      "p_toy": 1.8947583468,
+      "p_reference_toy": 2.2487604752,
+      "relative_noise": 0.0308295,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.03153305,
+      "p_toy": 1.8810626945,
+      "p_reference_toy": 2.3528282082,
+      "relative_noise": -0.0114426,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.12056796,
+      "p_toy": 1.9449368202,
+      "p_reference_toy": 2.445543141,
+      "relative_noise": -0.0055692,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.21728777,
+      "p_toy": 2.0908439094,
+      "p_reference_toy": 2.5062150128,
+      "relative_noise": 0.0555018,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.32235577,
+      "p_toy": 1.9640117458,
+      "p_reference_toy": 2.5233337712,
+      "relative_noise": -0.002976,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.43649253,
+      "p_toy": 1.978671341,
+      "p_reference_toy": 2.4988061668,
+      "relative_noise": 0.0276405,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.56048079,
+      "p_toy": 1.8801402159,
+      "p_reference_toy": 2.4475551712,
+      "relative_noise": 0.0106949,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.69517088,
+      "p_toy": 1.7664685238,
+      "p_reference_toy": 2.3925310837,
+      "relative_noise": -0.0144313,
+      "is_synthetic": true
+    },
+    {
+      "k": 1.8414865,
+      "p_toy": 1.7389293788,
+      "p_reference_toy": 2.3568365275,
+      "relative_noise": -4.9e-06,
+      "is_synthetic": true
+    },
+    {
+      "k": 2.00043109,
+      "p_toy": 1.7484324088,
+      "p_reference_toy": 2.3557246579,
+      "relative_noise": 0.0221733,
+      "is_synthetic": true
+    },
+    {
+      "k": 2.1730947,
+      "p_toy": 1.6564141198,
+      "p_reference_toy": 2.3912984032,
+      "relative_noise": -0.0298108,
+      "is_synthetic": true
+    },
+    {
+      "k": 2.36066145,
+      "p_toy": 1.7400852231,
+      "p_reference_toy": 2.4517890454,
+      "relative_noise": 0.0118483,
+      "is_synthetic": true
+    },
+    {
+      "k": 2.56441769,
+      "p_toy": 1.6893856159,
+      "p_reference_toy": 2.5156689296,
+      "relative_noise": -0.0245255,
+      "is_synthetic": true
+    },
+    {
+      "k": 2.78576078,
+      "p_toy": 1.8346807235,
+      "p_reference_toy": 2.559143803,
+      "relative_noise": 0.0620533,
+      "is_synthetic": true
+    },
+    {
+      "k": 3.02620871,
+      "p_toy": 1.6919568207,
+      "p_reference_toy": 2.564389421,
+      "relative_noise": -0.0021265,
+      "is_synthetic": true
+    },
+    {
+      "k": 3.28741046,
+      "p_toy": 1.6309961587,
+      "p_reference_toy": 2.5256605863,
+      "relative_noise": -0.0018143,
+      "is_synthetic": true
+    },
+    {
+      "k": 3.57115737,
+      "p_toy": 1.6174054062,
+      "p_reference_toy": 2.4511793271,
+      "relative_noise": 0.0436114,
+      "is_synthetic": true
+    },
+    {
+      "k": 3.87939539,
+      "p_toy": 1.4480415266,
+      "p_reference_toy": 2.3602096153,
+      "relative_noise": -0.005942,
+      "is_synthetic": true
+    },
+    {
+      "k": 4.21423841,
+      "p_toy": 1.3014626096,
+      "p_reference_toy": 2.2764060889,
+      "relative_noise": -0.0498289,
+      "is_synthetic": true
+    },
+    {
+      "k": 4.57798281,
+      "p_toy": 1.2496175631,
+      "p_reference_toy": 2.2197907231,
+      "relative_noise": -0.0390408,
+      "is_synthetic": true
+    },
+    {
+      "k": 4.97312315,
+      "p_toy": 1.2445411818,
+      "p_reference_toy": 2.2001324206,
+      "relative_noise": -0.0068101,
+      "is_synthetic": true
+    },
+    {
+      "k": 5.40236931,
+      "p_toy": 1.2877410861,
+      "p_reference_toy": 2.2139562512,
+      "relative_noise": 0.0519804,
+      "is_synthetic": true
+    },
+    {
+      "k": 5.86866509,
+      "p_toy": 1.3023509215,
+      "p_reference_toy": 2.2461090031,
+      "relative_noise": 0.0819315,
+      "is_synthetic": true
+    },
+    {
+      "k": 6.37520834,
+      "p_toy": 1.1692244369,
+      "p_reference_toy": 2.2752269064,
+      "relative_noise": -0.0090674,
+      "is_synthetic": true
+    },
+    {
+      "k": 6.92547296,
+      "p_toy": 1.1314486689,
+      "p_reference_toy": 2.2811420692,
+      "relative_noise": -0.009913,
+      "is_synthetic": true
+    },
+    {
+      "k": 7.52323269,
+      "p_toy": 1.0545650998,
+      "p_reference_toy": 2.2516658315,
+      "relative_noise": -0.0304477,
+      "is_synthetic": true
+    },
+    {
+      "k": 8.17258696,
+      "p_toy": 1.0605277081,
+      "p_reference_toy": 2.1864798313,
+      "relative_noise": 0.0433309,
+      "is_synthetic": true
+    },
+    {
+      "k": 8.87798908,
+      "p_toy": 0.9846437024,
+      "p_reference_toy": 2.096917945,
+      "relative_noise": 0.0516314,
+      "is_synthetic": true
+    },
+    {
+      "k": 9.64427672,
+      "p_toy": 0.8474836482,
+      "p_reference_toy": 2.001849482,
+      "relative_noise": -0.0107435,
+      "is_synthetic": true
+    },
+    {
+      "k": 10.47670509,
+      "p_toy": 0.7985504793,
+      "p_reference_toy": 1.9211788082,
+      "relative_noise": 0.0156829,
+      "is_synthetic": true
+    },
+    {
+      "k": 11.38098302,
+      "p_toy": 0.7615698071,
+      "p_reference_toy": 1.8692228145,
+      "relative_noise": 0.0435405,
+      "is_synthetic": true
+    },
+    {
+      "k": 12.36331206,
+      "p_toy": 0.6590157253,
+      "p_reference_toy": 1.8501854662,
+      "relative_noise": -0.0413619,
+      "is_synthetic": true
+    },
+    {
+      "k": 13.43042907,
+      "p_toy": 0.6795945105,
+      "p_reference_toy": 1.8571633304,
+      "relative_noise": 0.0375775,
+      "is_synthetic": true
+    },
+    {
+      "k": 14.58965236,
+      "p_toy": 0.6318687938,
+      "p_reference_toy": 1.8748808716,
+      "relative_noise": 0.0095165,
+      "is_synthetic": true
+    },
+    {
+      "k": 15.84893192,
+      "p_toy": 0.6361803797,
+      "p_reference_toy": 1.8851015629,
+      "relative_noise": 0.0710278,
+      "is_synthetic": true
+    }
+  ],
+  "is_synthetic": true,
+  "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+}

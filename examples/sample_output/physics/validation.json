@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "expected": "1 \u00b1 2e-08",
+      "message": "Background normalization is imposed through closure.",
+      "name": "E(z=0)",
+      "passed": true,
+      "severity": "error",
+      "tolerance": 2e-08,
+      "value": 1.0
+    },
+    {
+      "expected": "finite and positive for every requested z",
+      "message": "Expansion rate must remain finite and positive.",
+      "name": "H(z)>0",
+      "passed": true,
+      "severity": "error",
+      "tolerance": null,
+      "value": 67.4
+    },
+    {
+      "expected": "non-decreasing with redshift",
+      "message": "Comoving radial distance must increase for a positive expansion rate.",
+      "name": "D_C(z) monotonic",
+      "passed": true,
+      "severity": "error",
+      "tolerance": null,
+      "value": 1194.15126066816
+    },
+    {
+      "expected": "0 \u00b1 2e-06",
+      "message": "Includes photons, residual radiation, baryons, CDM, massive neutrinos, curvature and dark energy.",
+      "name": "density-fraction closure max error",
+      "passed": true,
+      "severity": "error",
+      "tolerance": 2e-06,
+      "value": 3.3306690738754696e-16
+    },
+    {
+      "expected": "0 \u00b1 2e-08",
+      "message": "Thermal energy density should scale as (1+z)^4 for massless species.",
+      "name": "massless rho_nu scales as a^-4",
+      "passed": true,
+      "severity": "error",
+      "tolerance": 2e-08,
+      "value": 2.220446049250313e-16
+    },
+    {
+      "expected": "0.333333 \u00b1 2e-08",
+      "message": "within tolerance",
+      "name": "massless neutrino equation of state",
+      "passed": true,
+      "severity": "error",
+      "tolerance": 2e-08,
+      "value": 0.3333333333333333
+    },
+    {
+      "expected": "w < 0.02 for m=0.6 eV at z=0",
+      "message": "A species much heavier than its present thermal temperature is non-relativistic.",
+      "name": "massive species pressure suppressed today",
+      "passed": true,
+      "severity": "error",
+      "tolerance": 0.02,
+      "value": 3.3669752614254867e-07
+    },
+    {
+      "expected": "0 <= P/rho <= 1/3",
+      "message": "For an isotropic thermal species, the equation-of-state ratio approaches 1/3 when relativistic.",
+      "name": "thermal pressure non-negative and below rho/3",
+      "passed": true,
+      "severity": "error",
+      "tolerance": null,
+      "value": 1.3467832333691607e-06
+    }
+  ],
+  "model_label": "homogeneous_background_plus_thermal_neutrinos",
+  "passed": true,
+  "schema_version": "1.0",
+  "warnings": [
+    "This is an internal consistency report, not validation against CAMB/CLASS or observational data.",
+    "Neutrino background integrals do not solve perturbation hierarchies or nonlinear free streaming.",
+    "Do not interpret this report as an uncertainty on sum_mnu."
+  ]
+}

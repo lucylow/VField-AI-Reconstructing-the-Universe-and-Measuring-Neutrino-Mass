@@ -1,0 +1,186 @@
+{
+  "dataset": {
+    "features": 16,
+    "fingerprint": "63dfdfd3ec6782c49cf790708c762269b6c889b0f3ccd25ca3240fadcaa30e84",
+    "rows": 200,
+    "simulator_status": "toy",
+    "targets": [
+      "latent_a",
+      "latent_b",
+      "latent_c"
+    ]
+  },
+  "gaussian_process": {
+    "metrics": {
+      "bias_by_target": [
+        0.02968981767113982,
+        0.05708395312793601,
+        -0.034776014916846586
+      ],
+      "coverage_68_by_target": [
+        0.6,
+        0.43333333333333335,
+        0.6
+      ],
+      "coverage_95_by_target": [
+        0.9666666666666667,
+        1.0,
+        0.9333333333333333
+      ],
+      "gaussian_nll_mean": 0.7893349783670306,
+      "mae_by_target": [
+        0.42912476126931115,
+        0.5012875822769176,
+        0.42038594342361846
+      ],
+      "mae_mean": 0.45026609565661574,
+      "mse_by_target": [
+        0.2557445975645607,
+        0.33250999125894504,
+        0.2808102673792296
+      ],
+      "mse_mean": 0.2896882854009118,
+      "n": 30,
+      "r2_by_target": [
+        0.22160417669329335,
+        0.2246987469852212,
+        0.16980209967040094
+      ],
+      "rmse_by_target": [
+        0.5057119709523996,
+        0.5766367931886978,
+        0.529915339822532
+      ],
+      "rmse_mean": 0.5374213679878764,
+      "standardized_residual_mean": [
+        0.05869194253917689,
+        0.11105066147439097,
+        -0.06996621827476494
+      ],
+      "standardized_residual_std": [
+        1.0460935354677152,
+        1.1169917389588377,
+        1.1146555115891321
+      ],
+      "target_dim": 3
+    },
+    "summary": {
+      "amplitude": 1.0,
+      "input_dim": 16,
+      "jitter_used": 1e-10,
+      "kernel": "matern52",
+      "length_scale": 0.7,
+      "log_marginal_likelihood": -486.60357747754665,
+      "n_train": 120,
+      "noise_variance": 0.0001,
+      "output_dim": 3,
+      "warning": "Exact GP uses O(N^3) factorization and approximate kernel assumptions."
+    },
+    "variance_temperature": {
+      "baseline_nll": 2.1892132799303243,
+      "calibrated_nll": 2.1540897525483014,
+      "grid_size": 101,
+      "method": "held-out NLL grid search",
+      "n_calibration": 20,
+      "search_max": 10.0,
+      "search_min": 0.1,
+      "temperature": 0.7943282347242819,
+      "warning": "Fit only on a calibration split independent of training and model selection."
+    }
+  },
+  "interpretation": "A single synthetic benchmark does not establish which model is best for cosmology.",
+  "name": "toy_gp_vs_neural_inverse_benchmark",
+  "neural": {
+    "best_epoch": 3,
+    "best_validation_loss": 2.280184745788574,
+    "metrics": {
+      "bias_by_target": [
+        0.09683701519187092,
+        -0.07288442820447878,
+        -0.04665653350770557
+      ],
+      "coverage_68_by_target": [
+        0.5333333333333333,
+        0.5666666666666667,
+        0.6
+      ],
+      "coverage_95_by_target": [
+        0.9666666666666667,
+        0.8333333333333334,
+        0.8666666666666667
+      ],
+      "gaussian_nll_mean": 0.1288639551971545,
+      "mae_by_target": [
+        0.21446469685212663,
+        0.226588477587809,
+        0.1702786700993994
+      ],
+      "mae_mean": 0.20377728151311167,
+      "mse_by_target": [
+        0.06839268376172127,
+        0.08657006998143492,
+        0.05933534734718148
+      ],
+      "mse_mean": 0.07143270036344589,
+      "n": 30,
+      "r2_by_target": [
+        0.7918369346143428,
+        0.7981477685044509,
+        0.8245787761156447
+      ],
+      "rmse_by_target": [
+        0.26151994907027887,
+        0.29422792182496027,
+        0.24358847950422755
+      ],
+      "rmse_mean": 0.26644545013315557,
+      "standardized_residual_mean": [
+        0.3608449714993732,
+        -0.26752275550054966,
+        -0.19668281483969358
+      ],
+      "standardized_residual_std": [
+        1.0885056507876616,
+        1.330534902123455,
+        1.316513821836057
+      ],
+      "target_dim": 3
+    },
+    "variance_temperature": {
+      "baseline_nll": 0.522284059619662,
+      "calibrated_nll": -0.5053456708056717,
+      "grid_size": 101,
+      "method": "held-out NLL grid search",
+      "n_calibration": 20,
+      "search_max": 10.0,
+      "search_min": 0.1,
+      "temperature": 0.22908676527677738,
+      "warning": "Fit only on a calibration split independent of training and model selection."
+    }
+  },
+  "not_a_cosmology_result": true,
+  "paired_test_rmse_difference_neural_minus_gp": {
+    "alpha": 0.05,
+    "confidence_interval": [
+      -0.31403075186004653,
+      -0.2305971643489136
+    ],
+    "difference_a_minus_b": -0.2709580168288051,
+    "interpretation": "Negative difference favors A for lower-is-better metrics; use domain relevance and calibration too.",
+    "interval_excludes_zero": true,
+    "metric": "rmse",
+    "n_bootstrap": 100,
+    "n_groups": 30,
+    "score_a": 0.2672689663306346,
+    "score_b": 0.5382269831594397,
+    "seed": 42
+  },
+  "split": {
+    "calibration_rows": 20,
+    "disjoint_groups": true,
+    "test_rows": 30,
+    "test_used_for_tuning": false,
+    "train_rows": 120,
+    "validation_rows": 30
+  }
+}

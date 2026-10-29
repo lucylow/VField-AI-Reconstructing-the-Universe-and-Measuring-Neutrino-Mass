@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.0.0",
+  "x_name": "redshift",
+  "y_names": [
+    "scale_factor",
+    "toy_distance_index"
+  ],
+  "points": [
+    {
+      "redshift": 10.0,
+      "scale_factor": 0.09090909,
+      "toy_distance_index": 1.21152494,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.88764,
+      "scale_factor": 0.09184727,
+      "toy_distance_index": 1.21970809,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.775281,
+      "scale_factor": 0.092805,
+      "toy_distance_index": 1.22152115,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.662921,
+      "scale_factor": 0.09378293,
+      "toy_distance_index": 1.21160649,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.550562,
+      "scale_factor": 0.09478168,
+      "toy_distance_index": 1.21233617,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.438202,
+      "scale_factor": 0.09580194,
+      "toy_distance_index": 1.20641119,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.325843,
+      "scale_factor": 0.09684439,
+      "toy_distance_index": 1.21265173,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.213483,
+      "scale_factor": 0.09790979,
+      "toy_distance_index": 1.2031266,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 9.101124,
+      "scale_factor": 0.09899888,
+      "toy_distance_index": 1.20508439,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.988764,
+      "scale_factor": 0.10011249,
+      "toy_distance_index": 1.19269762,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.876404,
+      "scale_factor": 0.10125143,
+      "toy_distance_index": 1.20139518,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.764045,
+      "scale_factor": 0.10241657,
+      "toy_distance_index": 1.18843098,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.651685,
+      "scale_factor": 0.10360885,
+      "toy_distance_index": 1.19350714,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.539326,
+      "scale_factor": 0.10482921,
+      "toy_distance_index": 1.18428384,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.426966,
+      "scale_factor": 0.10607867,
+      "toy_distance_index": 1.18152131,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.314607,
+      "scale_factor": 0.10735826,
+      "toy_distance_index": 1.18524745,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.202247,
+      "scale_factor": 0.10866911,
+      "toy_distance_index": 1.18539447,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 8.089888,
+      "scale_factor": 0.11001236,
+      "toy_distance_index": 1.18014936,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.977528,
+      "scale_factor": 0.11138924,
+      "toy_distance_index": 1.17919779,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.865169,
+      "scale_factor": 0.11280101,
+      "toy_distance_index": 1.18144473,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.752809,
+      "scale_factor": 0.11424904,
+      "toy_distance_index": 1.16198988,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.640449,
+      "scale_factor": 0.11573473,
+      "toy_distance_index": 1.17066193,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.52809,
+      "scale_factor": 0.11725955,
+      "toy_distance_index": 1.17102077,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.41573,
+      "scale_factor": 0.1188251,
+      "toy_distance_index": 1.16010432,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.303371,
+      "scale_factor": 0.12043301,
+      "toy_distance_index": 1.16364841,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.191011,
+      "scale_factor": 0.12208505,
+      "toy_distance_index": 1.15378036,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 7.078652,
+      "scale_factor": 0.12378303,
+      "toy_distance_index": 1.14225427,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.966292,
+      "scale_factor": 0.12552892,
+      "toy_distance_index": 1.14241994,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.853933,
+      "scale_factor": 0.12732474,
+      "toy_distance_index": 1.14120284,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.741573,
+      "scale_factor": 0.12917271,
+      "toy_distance_index": 1.14345915,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.629213,
+      "scale_factor": 0.13107512,
+      "toy_distance_index": 1.12507681,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.516854,
+      "scale_factor": 0.13303438,
+      "toy_distance_index": 1.12478627,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.404494,
+      "scale_factor": 0.13505312,
+      "toy_distance_index": 1.11686298,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.292135,
+      "scale_factor": 0.13713405,
+      "toy_distance_index": 1.12529342,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.179775,
+      "scale_factor": 0.13928013,
+      "toy_distance_index": 1.1059673,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 6.067416,
+      "scale_factor": 0.14149443,
+      "toy_distance_index": 1.10875577,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.955056,
+      "scale_factor": 0.14378029,
+      "toy_distance_index": 1.10714612,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.842697,
+      "scale_factor": 0.14614121,
+      "toy_distance_index": 1.09889028,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.730337,
+      "scale_factor": 0.14858097,
+      "toy_distance_index": 1.08115116,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.617978,
+      "scale_factor": 0.15110355,
+      "toy_distance_index": 1.08480165,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.505618,
+      "scale_factor": 0.1537133,
+      "toy_distance_index": 1.08029288,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.393258,
+      "scale_factor": 0.15641477,
+      "toy_distance_index": 1.07230768,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.280899,
+      "scale_factor": 0.15921288,
+      "toy_distance_index": 1.06564826,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.168539,
+      "scale_factor": 0.16211294,
+      "toy_distance_index": 1.05205808,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 5.05618,
+      "scale_factor": 0.16512059,
+      "toy_distance_index": 1.03713323,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.94382,
+      "scale_factor": 0.16824197,
+      "toy_distance_index": 1.03279612,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.831461,
+      "scale_factor": 0.17148361,
+      "toy_distance_index": 1.02478611,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.719101,
+      "scale_factor": 0.17485266,
+      "toy_distance_index": 1.01825584,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.606742,
+      "scale_factor": 0.1783567,
+      "toy_distance_index": 1.00380167,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.494382,
+      "scale_factor": 0.18200409,
+      "toy_distance_index": 1.00175228,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.382022,
+      "scale_factor": 0.18580377,
+      "toy_distance_index": 0.98841316,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.269663,
+      "scale_factor": 0.18976546,
+      "toy_distance_index": 0.9762608,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.157303,
+      "scale_factor": 0.1938998,
+      "toy_distance_index": 0.96833002,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 4.044944,
+      "scale_factor": 0.19821826,
+      "toy_distance_index": 0.96469606,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.932584,
+      "scale_factor": 0.2027335,
+      "toy_distance_index": 0.93240141,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.820225,
+      "scale_factor": 0.2074592,
+      "toy_distance_index": 0.93651414,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.707865,
+      "scale_factor": 0.21241051,
+      "toy_distance_index": 0.9191925,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.595506,
+      "scale_factor": 0.21760389,
+      "toy_distance_index": 0.89971487,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.483146,
+      "scale_factor": 0.22305765,
+      "toy_distance_index": 0.88758451,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.370787,
+      "scale_factor": 0.22879175,
+      "toy_distance_index": 0.87293765,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.258427,
+      "scale_factor": 0.23482849,
+      "toy_distance_index": 0.86465216,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.146067,
+      "scale_factor": 0.24119244,
+      "toy_distance_index": 0.83585867,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 3.033708,
+      "scale_factor": 0.24791086,
+      "toy_distance_index": 0.82359937,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.921348,
+      "scale_factor": 0.25501435,
+      "toy_distance_index": 0.80519771,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.808989,
+      "scale_factor": 0.26253686,
+      "toy_distance_index": 0.80076147,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.696629,
+      "scale_factor": 0.27051673,
+      "toy_distance_index": 0.76519321,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.58427,
+      "scale_factor": 0.27899684,
+      "toy_distance_index": 0.7529324,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.47191,
+      "scale_factor": 0.2880259,
+      "toy_distance_index": 0.73200187,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.359551,
+      "scale_factor": 0.29765882,
+      "toy_distance_index": 0.70770287,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.247191,
+      "scale_factor": 0.30795848,
+      "toy_distance_index": 0.69188997,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.134831,
+      "scale_factor": 0.31899646,
+      "toy_distance_index": 0.6734185,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 2.022472,
+      "scale_factor": 0.33085501,
+      "toy_distance_index": 0.64443712,
+      "epoch_label": "early",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.910112,
+      "scale_factor": 0.34362939,
+      "toy_distance_index": 0.61951093,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.797753,
+      "scale_factor": 0.35742969,
+      "toy_distance_index": 0.5816299,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.685393,
+      "scale_factor": 0.37238497,
+      "toy_distance_index": 0.56887083,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.573034,
+      "scale_factor": 0.38864624,
+      "toy_distance_index": 0.53861604,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.460674,
+      "scale_factor": 0.40639272,
+      "toy_distance_index": 0.51072511,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.348315,
+      "scale_factor": 0.42583725,
+      "toy_distance_index": 0.47486664,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.235955,
+      "scale_factor": 0.44723619,
+      "toy_distance_index": 0.44839873,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.123596,
+      "scale_factor": 0.47089936,
+      "toy_distance_index": 0.40298873,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 1.011236,
+      "scale_factor": 0.49720669,
+      "toy_distance_index": 0.37390824,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.898876,
+      "scale_factor": 0.52662733,
+      "toy_distance_index": 0.34793081,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.786517,
+      "scale_factor": 0.55974838,
+      "toy_distance_index": 0.30940093,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.674157,
+      "scale_factor": 0.59731554,
+      "toy_distance_index": 0.27192484,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.561798,
+      "scale_factor": 0.64028767,
+      "toy_distance_index": 0.22032602,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.449438,
+      "scale_factor": 0.68992258,
+      "toy_distance_index": 0.17988645,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.337079,
+      "scale_factor": 0.74789896,
+      "toy_distance_index": 0.13760395,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.224719,
+      "scale_factor": 0.81651383,
+      "toy_distance_index": 0.09638481,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.11236,
+      "scale_factor": 0.89898954,
+      "toy_distance_index": 0.050424,
+      "epoch_label": "intermediate",
+      "is_synthetic": true
+    },
+    {
+      "redshift": 0.0,
+      "scale_factor": 1.0,
+      "toy_distance_index": 0.0,
+      "epoch_label": "late",
+      "is_synthetic": true
+    }
+  ],
+  "is_synthetic": true,
+  "scientific_warning": "Only scale_factor = 1/(1+z) is a definitional relation here. toy_distance_index is arbitrary UI data, not a distance calculation."
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "ablation_kind": "fabricated UI comparison",
+  "results": [
+    {
+      "component": "field-summary",
+      "inputs_enabled": 1,
+      "toy_score": 0.576425,
+      "toy_score_error": 0.039234,
+      "sample_count": 233,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "power-features",
+      "inputs_enabled": 2,
+      "toy_score": 0.58381,
+      "toy_score_error": 0.031841,
+      "sample_count": 193,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "angular-catalog",
+      "inputs_enabled": 3,
+      "toy_score": 0.644623,
+      "toy_score_error": 0.037839,
+      "sample_count": 204,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "cmb-summary",
+      "inputs_enabled": 4,
+      "toy_score": 0.651163,
+      "toy_score_error": 0.028445,
+      "sample_count": 207,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "lensing-proxy",
+      "inputs_enabled": 5,
+      "toy_score": 0.698121,
+      "toy_score_error": 0.03044,
+      "sample_count": 196,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "late-fusion",
+      "inputs_enabled": 6,
+      "toy_score": 0.745696,
+      "toy_score_error": 0.021092,
+      "sample_count": 223,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    },
+    {
+      "component": "all-inputs",
+      "inputs_enabled": 5,
+      "toy_score": 0.769772,
+      "toy_score_error": 0.029328,
+      "sample_count": 193,
+      "conclusion": "Synthetic comparison only; does not establish predictive utility.",
+      "is_synthetic": true
+    }
+  ],
+  "is_synthetic": true,
+  "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results."
+}

@@ -1,0 +1,29 @@
+# Template only. This is a survey-validation product, not a supervised Mnu training set.
+dataset_id: desi_dr1_lss_example
+source_id: desi_dr1_mocks
+title: DESI DR1 LSS mock catalog - REPLACE WITH EXACT TRACER/VERSION
+release: DR1
+source_url: https://data.desi.lbl.gov/doc/releases/dr1/
+license_name: CC-BY-4.0 per DESI DR1 docs; confirm product-specific acknowledgements
+local_path: /path/to/local/catalog
+storage_format: fits
+observable_kind: galaxy_catalog
+observable_key: catalog_table
+parameter_key: none_observed_or_mock_truth_table
+parameter_names: [Mnu]
+neutrino_mass_parameter: Mnu
+mass_range_ev: null
+neutrino_mass_varies: false
+n_realizations: null
+redshift: null
+box_size_mpc_h: null
+field_resolution: null
+simulation_code: null
+initial_condition_method: null
+density_definition: catalog_objects
+units: {ra: deg, dec: deg, redshift: dimensionless}
+split_group_keys: [mock_family, phase_id, realization_id]
+citation: "Use official DESI DR1 data license and acknowledgment text"
+preprocessing: []
+known_limitations: ["Use for survey-window and clustering validation", "Not a dense Mnu supervised grid by default"]
+status: unverified

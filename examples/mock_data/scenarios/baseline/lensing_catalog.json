@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0.0",
+  "lens_model": "point-mass equation in arbitrary angular units",
+  "rows": [
+    {
+      "system_id": "mock-baseline-00016261-lens-00001",
+      "source_beta_arcsec_toy": 0.076914,
+      "theta_e_arcsec_toy": 0.602999,
+      "image_plus_arcsec_toy": 0.643901,
+      "image_minus_arcsec_toy": -0.567499,
+      "magnification_proxy_toy": 3.814073,
+      "fit_residual_toy": 0.0175498,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00002",
+      "source_beta_arcsec_toy": 0.547824,
+      "theta_e_arcsec_toy": 0.827774,
+      "image_plus_arcsec_toy": 1.1391,
+      "image_minus_arcsec_toy": -0.603657,
+      "magnification_proxy_toy": 2.419388,
+      "fit_residual_toy": 0.0098316,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00003",
+      "source_beta_arcsec_toy": 0.407022,
+      "theta_e_arcsec_toy": 0.579161,
+      "image_plus_arcsec_toy": 0.816554,
+      "image_minus_arcsec_toy": -0.411542,
+      "magnification_proxy_toy": 2.277078,
+      "fit_residual_toy": 0.0062823,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00004",
+      "source_beta_arcsec_toy": 0.828221,
+      "theta_e_arcsec_toy": 0.628219,
+      "image_plus_arcsec_toy": 1.152264,
+      "image_minus_arcsec_toy": -0.342385,
+      "magnification_proxy_toy": 1.737323,
+      "fit_residual_toy": 0.0033039,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00005",
+      "source_beta_arcsec_toy": 0.827665,
+      "theta_e_arcsec_toy": 0.844876,
+      "image_plus_arcsec_toy": 1.367146,
+      "image_minus_arcsec_toy": -0.507591,
+      "magnification_proxy_toy": 1.992236,
+      "fit_residual_toy": 0.0165133,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00006",
+      "source_beta_arcsec_toy": 0.824386,
+      "theta_e_arcsec_toy": 0.417185,
+      "image_plus_arcsec_toy": 1.006222,
+      "image_minus_arcsec_toy": -0.163543,
+      "magnification_proxy_toy": 1.49179,
+      "fit_residual_toy": 0.0006957,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00007",
+      "source_beta_arcsec_toy": -0.852763,
+      "theta_e_arcsec_toy": 0.635476,
+      "image_plus_arcsec_toy": 0.346613,
+      "image_minus_arcsec_toy": -1.184362,
+      "magnification_proxy_toy": 1.72551,
+      "fit_residual_toy": 0.002813,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00008",
+      "source_beta_arcsec_toy": -0.467556,
+      "theta_e_arcsec_toy": 0.38183,
+      "image_plus_arcsec_toy": 0.216338,
+      "image_minus_arcsec_toy": -0.671271,
+      "magnification_proxy_toy": 1.750841,
+      "fit_residual_toy": 0.0016627,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00009",
+      "source_beta_arcsec_toy": 0.346771,
+      "theta_e_arcsec_toy": 0.52287,
+      "image_plus_arcsec_toy": 0.730178,
+      "image_minus_arcsec_toy": -0.374869,
+      "magnification_proxy_toy": 2.306155,
+      "fit_residual_toy": 0.0233289,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00010",
+      "source_beta_arcsec_toy": 0.462919,
+      "theta_e_arcsec_toy": 0.551952,
+      "image_plus_arcsec_toy": 0.823399,
+      "image_minus_arcsec_toy": -0.370579,
+      "magnification_proxy_toy": 2.094545,
+      "fit_residual_toy": 0.0088427,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00011",
+      "source_beta_arcsec_toy": 0.295386,
+      "theta_e_arcsec_toy": 0.775853,
+      "image_plus_arcsec_toy": 0.929163,
+      "image_minus_arcsec_toy": -0.642104,
+      "magnification_proxy_toy": 3.174935,
+      "fit_residual_toy": 0.000475,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00012",
+      "source_beta_arcsec_toy": -0.418675,
+      "theta_e_arcsec_toy": 0.72763,
+      "image_plus_arcsec_toy": 0.550399,
+      "image_minus_arcsec_toy": -0.962466,
+      "magnification_proxy_toy": 2.568194,
+      "fit_residual_toy": 0.0006984,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00013",
+      "source_beta_arcsec_toy": 0.867821,
+      "theta_e_arcsec_toy": 0.558332,
+      "image_plus_arcsec_toy": 1.149792,
+      "image_minus_arcsec_toy": -0.26947,
+      "magnification_proxy_toy": 1.626938,
+      "fit_residual_toy": 0.0176786,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00014",
+      "source_beta_arcsec_toy": -0.74385,
+      "theta_e_arcsec_toy": 0.530653,
+      "image_plus_arcsec_toy": 0.276133,
+      "image_minus_arcsec_toy": -1.028798,
+      "magnification_proxy_toy": 1.68892,
+      "fit_residual_toy": 0.0183914,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00015",
+      "source_beta_arcsec_toy": -0.072826,
+      "theta_e_arcsec_toy": 0.67894,
+      "image_plus_arcsec_toy": 0.64535,
+      "image_minus_arcsec_toy": -0.711315,
+      "magnification_proxy_toy": 4.18981,
+      "fit_residual_toy": 0.0110006,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00016",
+      "source_beta_arcsec_toy": 0.05165,
+      "theta_e_arcsec_toy": 0.897786,
+      "image_plus_arcsec_toy": 0.911879,
+      "image_minus_arcsec_toy": -0.874481,
+      "magnification_proxy_toy": 5.346331,
+      "fit_residual_toy": 3.78e-05,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00017",
+      "source_beta_arcsec_toy": 0.506062,
+      "theta_e_arcsec_toy": 0.37047,
+      "image_plus_arcsec_toy": 0.699961,
+      "image_minus_arcsec_toy": -0.189536,
+      "magnification_proxy_toy": 1.680824,
+      "fit_residual_toy": 0.0120141,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00018",
+      "source_beta_arcsec_toy": 0.197014,
+      "theta_e_arcsec_toy": 0.717219,
+      "image_plus_arcsec_toy": 0.821402,
+      "image_minus_arcsec_toy": -0.636118,
+      "magnification_proxy_toy": 3.554749,
+      "fit_residual_toy": 0.0040664,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00019",
+      "source_beta_arcsec_toy": 0.877883,
+      "theta_e_arcsec_toy": 0.802138,
+      "image_plus_arcsec_toy": 1.351838,
+      "image_minus_arcsec_toy": -0.475088,
+      "magnification_proxy_toy": 1.890892,
+      "fit_residual_toy": 0.0179539,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00020",
+      "source_beta_arcsec_toy": 0.873892,
+      "theta_e_arcsec_toy": 0.520109,
+      "image_plus_arcsec_toy": 1.101291,
+      "image_minus_arcsec_toy": -0.250713,
+      "magnification_proxy_toy": 1.580164,
+      "fit_residual_toy": 0.0140722,
+      "is_synthetic": true
+    },
+    {
+      "system_id": "mock-baseline-00016261-lens-00021",
+      "source_beta_arcsec_toy": 0.564557,
+      "theta_e_arcsec_toy": 0.53077,
+      "image_plus_arcsec_toy": 0.873623,
+      "image_minus_arcsec_toy": -0.327956,
+      "magnification_proxy_toy": 1.886188,
+      "fit_residual_toy": 0.010699,
+      "is_synthetic": true
+    }
+  ],
+  "is_synthetic": true,
+  "scientific_warning": "UI fixture only; values are not real lens masses or cosmological distances."
+}

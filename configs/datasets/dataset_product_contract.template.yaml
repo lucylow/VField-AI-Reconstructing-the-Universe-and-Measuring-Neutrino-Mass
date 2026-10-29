@@ -1,0 +1,26 @@
+# Fill this against the official documentation for the exact downloaded PRODUCT, not just its suite.
+# This is a user-authored factual contract; the software cannot independently verify your answers.
+dataset_id: "replace_with_local_dataset_id"
+source_family: "Quijote"
+exact_product_id: "replace_with_exact_subsuite_snapshot_tracer_product"
+release: "replace_with_release_or_commit"
+source_url: "https://quijote-simulations.readthedocs.io/en/latest/Mnu.html"
+data_kind: "simulation" # simulation | mock | observed | software
+intended_role: "primary_target_training"
+license_or_terms: "review official terms and record them exactly"
+product_schema_verified: false
+source_cosmology_documented: false
+parameter_names: ["sum_mnu_ev", "omega_m", "sigma8"]
+parameter_units: ["eV", "dimensionless", "dimensionless"]
+target_name: "sum_mnu_ev"
+target_unit: "eV"
+target_values_verified: false
+target_grid_kind: "unknown" # continuous | discrete | none | unknown
+independent_group_definition: "describe which phases/boxes/cosmology families are indivisible"
+source_has_known_truth: true
+observed_product_has_target_truth: false
+field_geometry: "periodic_box"
+coordinate_and_length_units_documented: false
+redshift_or_snapshot_documented: false
+product_notes:
+  - "Do not set verified flags until the exact product table and actual arrays have been inspected."

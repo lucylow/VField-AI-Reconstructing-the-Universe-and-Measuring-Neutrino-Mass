@@ -1,0 +1,100 @@
+{
+  "derived": {
+    "omega_de0": 0.6852403284907284,
+    "omega_gamma0": 5.443772068081959e-05,
+    "omega_m0": 0.31471806201432123,
+    "omega_nu_massive0": 0.0014046650811735833,
+    "omega_nu_rel0": 5.687074172744774e-07
+  },
+  "model": "homogeneous_cpl_background",
+  "parameters": {
+    "A_s": 2.1e-09,
+    "H0_km_s_Mpc": 67.4,
+    "N_eff": 3.046,
+    "T_cmb_K": 2.7255,
+    "alpha_s": 0.0,
+    "density_convention": "Omega_i = rho_i(z=0)/rho_critical(z=0)",
+    "h": 0.674,
+    "k_pivot_Mpc_inv": 0.05,
+    "length_convention": "Mpc unless a method explicitly says Mpc/h",
+    "n_massive_species": 3,
+    "n_s": 0.965,
+    "neutrino_hierarchy": "degenerate",
+    "neutrino_masses_ev": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "omega_b": 0.0493,
+    "omega_b_h2": 0.0223958068,
+    "omega_cdm": 0.264,
+    "omega_cdm_h2": 0.11992886400000002,
+    "omega_k": 0.0,
+    "sum_mnu_ev": 0.06,
+    "tau_reio": 0.054,
+    "w0": -1.0,
+    "wa": 0.0
+  },
+  "redshift_table": [
+    {
+      "D_A_Mpc": 0.0,
+      "D_C_Mpc": 0.0,
+      "D_L_Mpc": 0.0,
+      "D_M_Mpc": 0.0,
+      "E": 1.0,
+      "H_km_s_Mpc": 67.4,
+      "density_fractions": {
+        "baryon": 0.0493,
+        "cdm": 0.264,
+        "curvature": 0.0,
+        "dark_energy": 0.6852403284907284,
+        "gamma": 5.443772068081959e-05,
+        "nu_massive": 0.0014046650811735833,
+        "nu_rel": 5.687074172744774e-07
+      },
+      "z": 0.0
+    },
+    {
+      "D_A_Mpc": 1700.8227954234517,
+      "D_C_Mpc": 3401.6455908469034,
+      "D_L_Mpc": 6803.291181693807,
+      "D_M_Mpc": 3401.6455908469034,
+      "E": 1.7899086646200977,
+      "H_km_s_Mpc": 120.6398439953946,
+      "density_fractions": {
+        "baryon": 0.12310485062212553,
+        "cdm": 0.659222729497792,
+        "curvature": 0.0,
+        "dark_energy": 0.21388541652917686,
+        "gamma": 0.00027186805162763856,
+        "nu_massive": 0.003512295110975712,
+        "nu_rel": 2.840188302282733e-06
+      },
+      "z": 1.0
+    },
+    {
+      "D_A_Mpc": 1770.9408152190636,
+      "D_C_Mpc": 5312.822445657191,
+      "D_L_Mpc": 15938.467336971571,
+      "D_M_Mpc": 5312.822445657191,
+      "E": 3.030983161719309,
+      "H_km_s_Mpc": 204.28826509988144,
+      "density_fractions": {
+        "baryon": 0.1448917427198229,
+        "cdm": 0.7758908737937779,
+        "curvature": 0.0,
+        "dark_energy": 0.07458918591910867,
+        "gamma": 0.0004799742121179855,
+        "nu_massive": 0.004143209095002954,
+        "nu_rel": 5.014260169569283e-06
+      },
+      "z": 2.0
+    }
+  ],
+  "schema_version": "1.0",
+  "validity": [
+    "Background expansion only; no perturbation evolution.",
+    "Massive-neutrino homogeneous Fermi-Dirac background is included.",
+    "For precision distances, compare against CAMB/CLASS using matched conventions."
+  ]
+}

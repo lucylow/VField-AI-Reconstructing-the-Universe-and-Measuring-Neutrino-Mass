@@ -1,0 +1,31 @@
+# Template only. Fill from the exact official product documentation and your downloaded metadata.
+dataset_id: quijote_mnu_example
+source_id: quijote_mnu
+title: Quijote massive-neutrino subset - REPLACE WITH EXACT SUITE/PRODUCT
+release: REPLACE_WITH_RELEASE_OR_DOCUMENTATION_VERSION
+source_url: https://quijote-simulations.readthedocs.io/en/latest/Mnu.html
+license_name: VERIFY_OFFICIAL_TERMS
+local_path: /path/to/local/product
+storage_format: hdf5
+observable_kind: 3d_matter_density
+observable_key: REPLACE_WITH_ACTUAL_HDF5_DATASET_PATH
+parameter_key: REPLACE_WITH_ACTUAL_PARAMETER_TABLE_OR_ARRAY
+parameter_names: [Omega_m, Omega_b, h, n_s, sigma8, Mnu]
+neutrino_mass_parameter: Mnu
+mass_range_ev: null # Set to a two-number list after verifying exact product metadata
+neutrino_mass_varies: null # Set true only after confirming Mnu genuinely varies
+n_realizations: null
+redshift: 0.0
+box_size_mpc_h: 1000.0
+field_resolution: [512, 512, 512]
+simulation_code: Gadget-III / exact product documentation
+initial_condition_method: VERIFY_EXACT_PRODUCT
+density_definition: overdensity_delta
+units:
+  length: Mpc/h
+  neutrino_mass: eV
+split_group_keys: [simulation_id, phase_id, paired_family_id]
+citation: VERIFY_AND_ADD_REQUIRED_CITATION
+preprocessing: []
+known_limitations: ["Fill from exact product docs; do not copy template assumptions without verification"]
+status: unverified

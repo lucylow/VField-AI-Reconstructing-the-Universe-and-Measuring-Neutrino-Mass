@@ -1,0 +1,25 @@
+{
+  "config_sha256": "c199b690073608a94394514e2f745abef4f59f0219b830fc9c4695c9b055b66a",
+  "created_utc": "2026-10-29T17:35:35.245915+00:00",
+  "dataset": {
+    "path": "examples/sample_output/dataset.npz",
+    "sha256": "55b620018fe8b0bdb4479f811f7c74547774f2e1492febf32c515ba720a04b75"
+  },
+  "extra": {
+    "report": "examples/sample_output/benchmark/benchmark_report.json"
+  },
+  "git_revision": "unknown",
+  "physics_level": "toy",
+  "random_seed": 121,
+  "schema_version": "1.0",
+  "scientific_warning": "TOY PHYSICS ONLY: outputs are for software validation, not cosmological measurement. The spectrum is phenomenological and is not a validated massive-neutrino model.",
+  "software_versions": {
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.10.8",
+    "nufield-starter": "not-installed-as-distribution",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "scipy": "1.17.0"
+  }
+}

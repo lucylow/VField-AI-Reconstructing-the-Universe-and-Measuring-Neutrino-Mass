@@ -1,0 +1,20 @@
+project:
+  name: nufield
+  physics_level: toy
+  description: "Synthetic software smoke test only; not a physical neutrino-mass model."
+simulation:
+  n_sims: 160
+  grid_size: 12
+  box_size_mpc_h: 500.0
+  mean_counts_per_cell: 4.0
+  seed: 7
+features:
+  n_k_bins: 10
+inference:
+  bandwidth: 1.0
+  top_k: 128
+  posterior_samples: 2000
+split:
+  train_fraction: 0.65
+  validation_fraction: 0.15
+  test_fraction: 0.20

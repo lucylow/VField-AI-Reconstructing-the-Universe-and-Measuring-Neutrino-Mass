@@ -1,0 +1,23 @@
+{
+  "release": "0.5.0",
+  "project": "nuField cosmology, AI research, and educational frontend scaffold",
+  "archive_files": 851,
+  "python_source_files": 452,
+  "test_files": 72,
+  "verified_test_result": "291 passed, 21 skipped because optional torch/h5py dependencies are not installed",
+  "verification": [
+    "PYTHONPATH=src python3 -m pytest -q -ra",
+    "ruff check src/nufield/ai tests/ai examples/ai/compare_gp_vs_neural.py",
+    "PYTHONPATH=src python3 -m compileall -q src/nufield/ai",
+    "PYTHONPATH=src python3 -m nufield.ai.cli --help",
+    "Built no-dependency wheel and verified 0.5.0 metadata, AI package contents, and nufield-ai entrypoint"
+  ],
+  "new_documentation": [
+    "docs/AI_FEATURES_V0_5.md",
+    "docs/PHYSICS_RESEARCH_EXTENSIONS_V0_4.md",
+    "frontend/README.md"
+  ],
+  "example_ai_demo": "examples/sample_output/ai_v0_5_demo/ai_demo_report.json",
+  "example_gp_vs_neural_benchmark": "examples/sample_output/ai_v0_5_demo/gp_vs_neural.json",
+  "scope_warning": "AI demos and frontend visuals are synthetic or illustrative; no real-data cosmological or neutrino-mass constraint is claimed. ML training requires the optional ml extra; HDF5 workflows require data extras."
+}

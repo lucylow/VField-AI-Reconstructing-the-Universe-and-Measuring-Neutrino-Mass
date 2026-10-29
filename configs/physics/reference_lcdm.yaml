@@ -1,0 +1,18 @@
+# Illustrative physical model values for code verification only; not a parameter fit.
+cosmology:
+  H0_km_s_Mpc: 67.4
+  omega_b: 0.0493
+  omega_cdm: 0.2640
+  omega_k: 0.0
+  sum_mnu_ev: 0.06
+  neutrino_hierarchy: degenerate
+  n_massive_species: 3
+  N_eff: 3.046
+  T_cmb_K: 2.7255
+  A_s: 2.1e-9
+  n_s: 0.965
+  alpha_s: 0.0
+  k_pivot_Mpc_inv: 0.05
+  tau_reio: 0.054
+  w0: -1.0
+  wa: 0.0

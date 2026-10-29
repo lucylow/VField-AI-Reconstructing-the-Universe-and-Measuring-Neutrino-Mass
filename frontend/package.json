@@ -1,0 +1,10 @@
+{
+  "name": "nufield-observatory-frontend",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Dependency-free frontend visualization tests for the νField research scaffold",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

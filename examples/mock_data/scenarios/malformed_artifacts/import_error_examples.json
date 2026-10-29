@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "is_synthetic": true,
+  "examples": [
+    {
+      "filename": "example-malformed.json",
+      "raw_text": "{\"dataset_name\": \"truncated\",",
+      "expected_result": "parse-error",
+      "description": "Malformed JSON text; for importer tests only."
+    },
+    {
+      "filename": "example-unknown-shape.json",
+      "content": {
+        "hello": "world",
+        "rows": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected_result": "unclassified-extra",
+      "description": "Valid JSON without a recognized artifact signature."
+    },
+    {
+      "filename": "example-array-root.json",
+      "content": [
+        {
+          "name": "array-root"
+        }
+      ],
+      "expected_result": "shape-error",
+      "description": "Top-level array to exercise importer validation."
+    },
+    {
+      "filename": "example-deep-nesting.json",
+      "content": {
+        "a": {
+          "b": {
+            "c": {
+              "d": "..."
+            }
+          }
+        }
+      },
+      "expected_result": "depth-test",
+      "description": "Small proxy for a deeply nested JSON test."
+    }
+  ],
+  "scientific_warning": "Import test cases are fixtures, not research data."
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_name": "NUFIELD synthetic demo — Held-out domain shift",
+  "dataset_id": "synthetic-mock-domain_shift-0001645a",
+  "dataset_tag": "MOCK_DEMO_NOT_FOR_SCIENCE",
+  "physics_level": "toy",
+  "is_synthetic": true,
+  "source_kind": "synthetic-demo-generator",
+  "scenario": "domain_shift",
+  "random_seed": 91226,
+  "n_simulations": 250,
+  "n_observations": 150,
+  "grid_size": 64,
+  "feature_names": [
+    "field_mean",
+    "field_variance",
+    "power_slope",
+    "density_proxy",
+    "noise_level",
+    "mask_fraction"
+  ],
+  "parameter_names": [
+    "omega_m",
+    "sigma8",
+    "h",
+    "n_s",
+    "sum_mnu_ev",
+    "bias"
+  ],
+  "sampling": {
+    "train": 162,
+    "validation": 37,
+    "test": 51
+  },
+  "summary_statistics": {
+    "expected_parameter_centers": {
+      "omega_m": 0.3,
+      "sigma8": 0.81,
+      "h": 0.68,
+      "n_s": 0.965,
+      "sum_mnu_ev": 0.12,
+      "bias": 1.0
+    },
+    "parameter_count": 6
+  },
+  "scientific_warning": "SYNTHETIC DEMO DATA ONLY. Generated values are not observations, not a calibrated cosmological prediction, not a validated posterior, and not evidence about neutrino mass. Do not cite as scientific results.",
+  "caveats": [
+    "Rows are generated from display-oriented toy distributions, not a Boltzmann solver.",
+    "Parameter associations are configured by the demo generator, not inferred.",
+    "No measurement, prior, likelihood, posterior, or physical constraint is validated."
+  ]
+}

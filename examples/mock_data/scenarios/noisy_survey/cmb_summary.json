@@ -1,0 +1,766 @@
+{
+  "schema_version": "1.0.0",
+  "quantity": "C_ell toy summary",
+  "points": [
+    {
+      "ell": 2,
+      "cl_toy": 1.215533814,
+      "uncertainty_toy": 0.018761017,
+      "is_synthetic": true
+    },
+    {
+      "ell": 3,
+      "cl_toy": 1.181480813,
+      "uncertainty_toy": 0.015999243,
+      "is_synthetic": true
+    },
+    {
+      "ell": 4,
+      "cl_toy": 1.278759192,
+      "uncertainty_toy": 0.016818725,
+      "is_synthetic": true
+    },
+    {
+      "ell": 5,
+      "cl_toy": 1.242209493,
+      "uncertainty_toy": 0.054659873,
+      "is_synthetic": true
+    },
+    {
+      "ell": 6,
+      "cl_toy": 1.169969003,
+      "uncertainty_toy": 0.020419541,
+      "is_synthetic": true
+    },
+    {
+      "ell": 7,
+      "cl_toy": 1.225166296,
+      "uncertainty_toy": 0.03239489,
+      "is_synthetic": true
+    },
+    {
+      "ell": 8,
+      "cl_toy": 1.357752884,
+      "uncertainty_toy": 0.054394372,
+      "is_synthetic": true
+    },
+    {
+      "ell": 9,
+      "cl_toy": 1.250688135,
+      "uncertainty_toy": 0.05633762,
+      "is_synthetic": true
+    },
+    {
+      "ell": 10,
+      "cl_toy": 1.359526161,
+      "uncertainty_toy": 0.018813928,
+      "is_synthetic": true
+    },
+    {
+      "ell": 11,
+      "cl_toy": 1.317575067,
+      "uncertainty_toy": 0.056033019,
+      "is_synthetic": true
+    },
+    {
+      "ell": 12,
+      "cl_toy": 1.375464738,
+      "uncertainty_toy": 0.035230523,
+      "is_synthetic": true
+    },
+    {
+      "ell": 13,
+      "cl_toy": 1.396874187,
+      "uncertainty_toy": 0.038844507,
+      "is_synthetic": true
+    },
+    {
+      "ell": 14,
+      "cl_toy": 1.357515206,
+      "uncertainty_toy": 0.030547658,
+      "is_synthetic": true
+    },
+    {
+      "ell": 15,
+      "cl_toy": 1.498907193,
+      "uncertainty_toy": 0.037366673,
+      "is_synthetic": true
+    },
+    {
+      "ell": 16,
+      "cl_toy": 1.363794926,
+      "uncertainty_toy": 0.031552806,
+      "is_synthetic": true
+    },
+    {
+      "ell": 17,
+      "cl_toy": 1.490451476,
+      "uncertainty_toy": 0.049131512,
+      "is_synthetic": true
+    },
+    {
+      "ell": 18,
+      "cl_toy": 1.516335349,
+      "uncertainty_toy": 0.020971684,
+      "is_synthetic": true
+    },
+    {
+      "ell": 19,
+      "cl_toy": 1.53366033,
+      "uncertainty_toy": 0.025810688,
+      "is_synthetic": true
+    },
+    {
+      "ell": 20,
+      "cl_toy": 1.481925987,
+      "uncertainty_toy": 0.059873821,
+      "is_synthetic": true
+    },
+    {
+      "ell": 21,
+      "cl_toy": 1.580795832,
+      "uncertainty_toy": 0.036359316,
+      "is_synthetic": true
+    },
+    {
+      "ell": 22,
+      "cl_toy": 1.587277072,
+      "uncertainty_toy": 0.037198103,
+      "is_synthetic": true
+    },
+    {
+      "ell": 23,
+      "cl_toy": 1.425188934,
+      "uncertainty_toy": 0.061314423,
+      "is_synthetic": true
+    },
+    {
+      "ell": 24,
+      "cl_toy": 1.545654747,
+      "uncertainty_toy": 0.034303874,
+      "is_synthetic": true
+    },
+    {
+      "ell": 25,
+      "cl_toy": 1.516240049,
+      "uncertainty_toy": 0.016762294,
+      "is_synthetic": true
+    },
+    {
+      "ell": 26,
+      "cl_toy": 1.60532405,
+      "uncertainty_toy": 0.056084818,
+      "is_synthetic": true
+    },
+    {
+      "ell": 27,
+      "cl_toy": 1.6165529,
+      "uncertainty_toy": 0.025855394,
+      "is_synthetic": true
+    },
+    {
+      "ell": 28,
+      "cl_toy": 1.480968716,
+      "uncertainty_toy": 0.056928667,
+      "is_synthetic": true
+    },
+    {
+      "ell": 29,
+      "cl_toy": 1.596483416,
+      "uncertainty_toy": 0.031888179,
+      "is_synthetic": true
+    },
+    {
+      "ell": 30,
+      "cl_toy": 1.576699477,
+      "uncertainty_toy": 0.020973763,
+      "is_synthetic": true
+    },
+    {
+      "ell": 31,
+      "cl_toy": 1.437598068,
+      "uncertainty_toy": 0.049889983,
+      "is_synthetic": true
+    },
+    {
+      "ell": 32,
+      "cl_toy": 1.547242845,
+      "uncertainty_toy": 0.056091067,
+      "is_synthetic": true
+    },
+    {
+      "ell": 33,
+      "cl_toy": 1.627063043,
+      "uncertainty_toy": 0.041439879,
+      "is_synthetic": true
+    },
+    {
+      "ell": 34,
+      "cl_toy": 1.453074273,
+      "uncertainty_toy": 0.032867815,
+      "is_synthetic": true
+    },
+    {
+      "ell": 35,
+      "cl_toy": 1.47232102,
+      "uncertainty_toy": 0.053941827,
+      "is_synthetic": true
+    },
+    {
+      "ell": 36,
+      "cl_toy": 1.492953219,
+      "uncertainty_toy": 0.041391874,
+      "is_synthetic": true
+    },
+    {
+      "ell": 37,
+      "cl_toy": 1.430163613,
+      "uncertainty_toy": 0.047758258,
+      "is_synthetic": true
+    },
+    {
+      "ell": 38,
+      "cl_toy": 1.392538984,
+      "uncertainty_toy": 0.043824788,
+      "is_synthetic": true
+    },
+    {
+      "ell": 39,
+      "cl_toy": 1.453303237,
+      "uncertainty_toy": 0.056672433,
+      "is_synthetic": true
+    },
+    {
+      "ell": 40,
+      "cl_toy": 1.36784725,
+      "uncertainty_toy": 0.055879405,
+      "is_synthetic": true
+    },
+    {
+      "ell": 41,
+      "cl_toy": 1.296538311,
+      "uncertainty_toy": 0.050126056,
+      "is_synthetic": true
+    },
+    {
+      "ell": 42,
+      "cl_toy": 1.392722293,
+      "uncertainty_toy": 0.019393514,
+      "is_synthetic": true
+    },
+    {
+      "ell": 43,
+      "cl_toy": 1.345468617,
+      "uncertainty_toy": 0.047828562,
+      "is_synthetic": true
+    },
+    {
+      "ell": 44,
+      "cl_toy": 1.369315132,
+      "uncertainty_toy": 0.021725306,
+      "is_synthetic": true
+    },
+    {
+      "ell": 45,
+      "cl_toy": 1.322616807,
+      "uncertainty_toy": 0.058407181,
+      "is_synthetic": true
+    },
+    {
+      "ell": 46,
+      "cl_toy": 1.404390307,
+      "uncertainty_toy": 0.04712884,
+      "is_synthetic": true
+    },
+    {
+      "ell": 47,
+      "cl_toy": 1.313258214,
+      "uncertainty_toy": 0.033114216,
+      "is_synthetic": true
+    },
+    {
+      "ell": 48,
+      "cl_toy": 1.243212701,
+      "uncertainty_toy": 0.06146965,
+      "is_synthetic": true
+    },
+    {
+      "ell": 49,
+      "cl_toy": 1.337576531,
+      "uncertainty_toy": 0.0263164,
+      "is_synthetic": true
+    },
+    {
+      "ell": 50,
+      "cl_toy": 1.299198995,
+      "uncertainty_toy": 0.042751332,
+      "is_synthetic": true
+    },
+    {
+      "ell": 51,
+      "cl_toy": 1.205362515,
+      "uncertainty_toy": 0.045394889,
+      "is_synthetic": true
+    },
+    {
+      "ell": 52,
+      "cl_toy": 1.361547897,
+      "uncertainty_toy": 0.026006696,
+      "is_synthetic": true
+    },
+    {
+      "ell": 53,
+      "cl_toy": 1.256379443,
+      "uncertainty_toy": 0.036364888,
+      "is_synthetic": true
+    },
+    {
+      "ell": 54,
+      "cl_toy": 1.301213877,
+      "uncertainty_toy": 0.041870399,
+      "is_synthetic": true
+    },
+    {
+      "ell": 55,
+      "cl_toy": 1.332410199,
+      "uncertainty_toy": 0.024255141,
+      "is_synthetic": true
+    },
+    {
+      "ell": 56,
+      "cl_toy": 1.412351124,
+      "uncertainty_toy": 0.054392009,
+      "is_synthetic": true
+    },
+    {
+      "ell": 57,
+      "cl_toy": 1.383072314,
+      "uncertainty_toy": 0.033882547,
+      "is_synthetic": true
+    },
+    {
+      "ell": 58,
+      "cl_toy": 1.329421391,
+      "uncertainty_toy": 0.026454117,
+      "is_synthetic": true
+    },
+    {
+      "ell": 59,
+      "cl_toy": 1.347897341,
+      "uncertainty_toy": 0.04097368,
+      "is_synthetic": true
+    },
+    {
+      "ell": 60,
+      "cl_toy": 1.456337576,
+      "uncertainty_toy": 0.043063963,
+      "is_synthetic": true
+    },
+    {
+      "ell": 61,
+      "cl_toy": 1.35768663,
+      "uncertainty_toy": 0.048752205,
+      "is_synthetic": true
+    },
+    {
+      "ell": 62,
+      "cl_toy": 1.439486214,
+      "uncertainty_toy": 0.023113525,
+      "is_synthetic": true
+    },
+    {
+      "ell": 63,
+      "cl_toy": 1.436520257,
+      "uncertainty_toy": 0.057150087,
+      "is_synthetic": true
+    },
+    {
+      "ell": 64,
+      "cl_toy": 1.349396954,
+      "uncertainty_toy": 0.051923971,
+      "is_synthetic": true
+    },
+    {
+      "ell": 65,
+      "cl_toy": 1.437525638,
+      "uncertainty_toy": 0.02874168,
+      "is_synthetic": true
+    },
+    {
+      "ell": 66,
+      "cl_toy": 1.492784008,
+      "uncertainty_toy": 0.05881493,
+      "is_synthetic": true
+    },
+    {
+      "ell": 67,
+      "cl_toy": 1.560072073,
+      "uncertainty_toy": 0.020897876,
+      "is_synthetic": true
+    },
+    {
+      "ell": 68,
+      "cl_toy": 1.472186062,
+      "uncertainty_toy": 0.054191947,
+      "is_synthetic": true
+    },
+    {
+      "ell": 69,
+      "cl_toy": 1.634058061,
+      "uncertainty_toy": 0.049313264,
+      "is_synthetic": true
+    },
+    {
+      "ell": 70,
+      "cl_toy": 1.504866388,
+      "uncertainty_toy": 0.032849138,
+      "is_synthetic": true
+    },
+    {
+      "ell": 71,
+      "cl_toy": 1.608722518,
+      "uncertainty_toy": 0.016415503,
+      "is_synthetic": true
+    },
+    {
+      "ell": 72,
+      "cl_toy": 1.50208263,
+      "uncertainty_toy": 0.047578884,
+      "is_synthetic": true
+    },
+    {
+      "ell": 73,
+      "cl_toy": 1.625564683,
+      "uncertainty_toy": 0.046291262,
+      "is_synthetic": true
+    },
+    {
+      "ell": 74,
+      "cl_toy": 1.551501127,
+      "uncertainty_toy": 0.021833456,
+      "is_synthetic": true
+    },
+    {
+      "ell": 75,
+      "cl_toy": 1.510332101,
+      "uncertainty_toy": 0.018776904,
+      "is_synthetic": true
+    },
+    {
+      "ell": 76,
+      "cl_toy": 1.481386522,
+      "uncertainty_toy": 0.037298064,
+      "is_synthetic": true
+    },
+    {
+      "ell": 77,
+      "cl_toy": 1.476168111,
+      "uncertainty_toy": 0.024452761,
+      "is_synthetic": true
+    },
+    {
+      "ell": 78,
+      "cl_toy": 1.613820941,
+      "uncertainty_toy": 0.021211064,
+      "is_synthetic": true
+    },
+    {
+      "ell": 79,
+      "cl_toy": 1.562076974,
+      "uncertainty_toy": 0.047823645,
+      "is_synthetic": true
+    },
+    {
+      "ell": 80,
+      "cl_toy": 1.578309561,
+      "uncertainty_toy": 0.016011434,
+      "is_synthetic": true
+    },
+    {
+      "ell": 81,
+      "cl_toy": 1.419978463,
+      "uncertainty_toy": 0.03710703,
+      "is_synthetic": true
+    },
+    {
+      "ell": 82,
+      "cl_toy": 1.511403406,
+      "uncertainty_toy": 0.038910967,
+      "is_synthetic": true
+    },
+    {
+      "ell": 83,
+      "cl_toy": 1.384092392,
+      "uncertainty_toy": 0.02574471,
+      "is_synthetic": true
+    },
+    {
+      "ell": 84,
+      "cl_toy": 1.39657957,
+      "uncertainty_toy": 0.0530299,
+      "is_synthetic": true
+    },
+    {
+      "ell": 85,
+      "cl_toy": 1.315964883,
+      "uncertainty_toy": 0.060082833,
+      "is_synthetic": true
+    },
+    {
+      "ell": 86,
+      "cl_toy": 1.378629753,
+      "uncertainty_toy": 0.051085242,
+      "is_synthetic": true
+    },
+    {
+      "ell": 87,
+      "cl_toy": 1.442094994,
+      "uncertainty_toy": 0.03641375,
+      "is_synthetic": true
+    },
+    {
+      "ell": 88,
+      "cl_toy": 1.393766168,
+      "uncertainty_toy": 0.018884329,
+      "is_synthetic": true
+    },
+    {
+      "ell": 89,
+      "cl_toy": 1.395906478,
+      "uncertainty_toy": 0.025371472,
+      "is_synthetic": true
+    },
+    {
+      "ell": 90,
+      "cl_toy": 1.342285513,
+      "uncertainty_toy": 0.058120349,
+      "is_synthetic": true
+    },
+    {
+      "ell": 91,
+      "cl_toy": 1.279214929,
+      "uncertainty_toy": 0.035800327,
+      "is_synthetic": true
+    },
+    {
+      "ell": 92,
+      "cl_toy": 1.300957092,
+      "uncertainty_toy": 0.043157821,
+      "is_synthetic": true
+    },
+    {
+      "ell": 93,
+      "cl_toy": 1.242367659,
+      "uncertainty_toy": 0.052042668,
+      "is_synthetic": true
+    },
+    {
+      "ell": 94,
+      "cl_toy": 1.209817186,
+      "uncertainty_toy": 0.03282749,
+      "is_synthetic": true
+    },
+    {
+      "ell": 95,
+      "cl_toy": 1.221153003,
+      "uncertainty_toy": 0.021914441,
+      "is_synthetic": true
+    },
+    {
+      "ell": 96,
+      "cl_toy": 1.238069504,
+      "uncertainty_toy": 0.022471766,
+      "is_synthetic": true
+    },
+    {
+      "ell": 97,
+      "cl_toy": 1.275134904,
+      "uncertainty_toy": 0.045736552,
+      "is_synthetic": true
+    },
+    {
+      "ell": 98,
+      "cl_toy": 1.16196232,
+      "uncertainty_toy": 0.01766654,
+      "is_synthetic": true
+    },
+    {
+      "ell": 99,
+      "cl_toy": 1.179633769,
+      "uncertainty_toy": 0.0227848,
+      "is_synthetic": true
+    },
+    {
+      "ell": 100,
+      "cl_toy": 1.227738192,
+      "uncertainty_toy": 0.044130656,
+      "is_synthetic": true
+    },
+    {
+      "ell": 101,
+      "cl_toy": 1.211907407,
+      "uncertainty_toy": 0.0549851,
+      "is_synthetic": true
+    },
+    {
+      "ell": 102,
+      "cl_toy": 1.240031162,
+      "uncertainty_toy": 0.031858767,
+      "is_synthetic": true
+    },
+    {
+      "ell": 103,
+      "cl_toy": 1.270932225,
+      "uncertainty_toy": 0.015038544,
+      "is_synthetic": true
+    },
+    {
+      "ell": 104,
+      "cl_toy": 1.168578553,
+      "uncertainty_toy": 0.026595616,
+      "is_synthetic": true
+    },
+    {
+      "ell": 105,
+      "cl_toy": 1.234760493,
+      "uncertainty_toy": 0.056591425,
+      "is_synthetic": true
+    },
+    {
+      "ell": 106,
+      "cl_toy": 1.207107258,
+      "uncertainty_toy": 0.03105631,
+      "is_synthetic": true
+    },
+    {
+      "ell": 107,
+      "cl_toy": 1.201411599,
+      "uncertainty_toy": 0.033247234,
+      "is_synthetic": true
+    },
+    {
+      "ell": 108,
+      "cl_toy": 1.20287233,
+      "uncertainty_toy": 0.046861933,
+      "is_synthetic": true
+    },
+    {
+      "ell": 109,
+      "cl_toy": 1.183014151,
+      "uncertainty_toy": 0.032512671,
+      "is_synthetic": true
+    },
+    {
+      "ell": 110,
+      "cl_toy": 1.216645717,
+      "uncertainty_toy": 0.03052983,
+      "is_synthetic": true
+    },
+    {
+      "ell": 111,
+      "cl_toy": 1.179823428,
+      "uncertainty_toy": 0.026572962,
+      "is_synthetic": true
+    },
+    {
+      "ell": 112,
+      "cl_toy": 1.19201749,
+      "uncertainty_toy": 0.061950503,
+      "is_synthetic": true
+    },
+    {
+      "ell": 113,
+      "cl_toy": 1.1979142,
+      "uncertainty_toy": 0.046189882,
+      "is_synthetic": true
+    },
+    {
+      "ell": 114,
+      "cl_toy": 1.297380426,
+      "uncertainty_toy": 0.060232747,
+      "is_synthetic": true
+    },
+    {
+      "ell": 115,
+      "cl_toy": 1.250547137,
+      "uncertainty_toy": 0.031806984,
+      "is_synthetic": true
+    },
+    {
+      "ell": 116,
+      "cl_toy": 1.205064562,
+      "uncertainty_toy": 0.041165817,
+      "is_synthetic": true
+    },
+    {
+      "ell": 117,
+      "cl_toy": 1.353902696,
+      "uncertainty_toy": 0.027690866,
+      "is_synthetic": true
+    },
+    {
+      "ell": 118,
+      "cl_toy": 1.28255971,
+      "uncertainty_toy": 0.023375794,
+      "is_synthetic": true
+    },
+    {
+      "ell": 119,
+      "cl_toy": 1.328183591,
+      "uncertainty_toy": 0.022751208,
+      "is_synthetic": true
+    },
+    {
+      "ell": 120,
+      "cl_toy": 1.341384725,
+      "uncertainty_toy": 0.029534716,
+      "is_synthetic": true
+    },
+    {
+      "ell": 121,
+      "cl_toy": 1.303147554,
+      "uncertainty_toy": 0.020032683,
+      "is_synthetic": true
+    },
+    {
+      "ell": 122,
+      "cl_toy": 1.307133095,
+      "uncertainty_toy": 0.015279631,
+      "is_synthetic": true
+    },
+    {
+      "ell": 123,
+      "cl_toy": 1.343357338,
+      "uncertainty_toy": 0.023391836,
+      "is_synthetic": true
+    },
+    {
+      "ell": 124,
+      "cl_toy": 1.397069734,
+      "uncertainty_toy": 0.041671946,
+      "is_synthetic": true
+    },
+    {
+      "ell": 125,
+      "cl_toy": 1.350598104,
+      "uncertainty_toy": 0.024912157,
+      "is_synthetic": true
+    },
+    {
+      "ell": 126,
+      "cl_toy": 1.340800556,
+      "uncertainty_toy": 0.056045855,
+      "is_synthetic": true
+    },
+    {
+      "ell": 127,
+      "cl_toy": 1.310007291,
+      "uncertainty_toy": 0.060112587,
+      "is_synthetic": true
+    }
+  ],
+  "generated_texture": true,
+  "pixelization": "not HEALPix",
+  "is_synthetic": true,
+  "scientific_warning": "A hand-shaped demonstration curve, not Planck/WMAP measurements or a Boltzmann calculation."
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "report_id": "mock-baseline-00016261-validation",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "schema_shape",
+      "label": "Artifact shape",
+      "status": "PASS",
+      "detail": "Required keys exist in generated fixtures.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "finite_values",
+      "label": "Finite display values",
+      "status": "PASS",
+      "detail": "The generator clamps generated numeric fields to bounded ranges.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "scenario_provenance",
+      "label": "Synthetic provenance label",
+      "status": "PASS",
+      "detail": "Synthetic provenance is attached to exported artifacts.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "split_disjointness",
+      "label": "Realization split disjointness",
+      "status": "PASS",
+      "detail": "No shared realization IDs were found in generated splits.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "coverage_demo",
+      "label": "Coverage diagnostic demo",
+      "status": "PASS",
+      "detail": "Illustrative coverage values are inside the broad demo tolerance.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "pass": 5,
+    "warn": 0,
+    "fail": 0
+  },
+  "is_synthetic": true,
+  "scientific_warning": "PASS checks fixture consistency only; they do not validate scientific accuracy."
+}

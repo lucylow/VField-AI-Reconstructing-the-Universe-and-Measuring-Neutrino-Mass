@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "report_id": "mock-calibration_bias-000163f5-validation",
+  "overall_status": "WARN",
+  "checks": [
+    {
+      "id": "schema_shape",
+      "label": "Artifact shape",
+      "status": "PASS",
+      "detail": "Required keys exist in generated fixtures.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "finite_values",
+      "label": "Finite display values",
+      "status": "PASS",
+      "detail": "The generator clamps generated numeric fields to bounded ranges.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "scenario_provenance",
+      "label": "Synthetic provenance label",
+      "status": "PASS",
+      "detail": "Synthetic provenance is attached to exported artifacts.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "split_disjointness",
+      "label": "Realization split disjointness",
+      "status": "PASS",
+      "detail": "No shared realization IDs were found in generated splits.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "coverage_demo",
+      "label": "Coverage diagnostic demo",
+      "status": "WARN",
+      "detail": "Coverage values are artificially depressed in this profile.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    },
+    {
+      "id": "calibration_offset",
+      "label": "Estimator calibration",
+      "status": "WARN",
+      "detail": "A synthetic calibration offset was injected; no real estimator was fitted.",
+      "fixture_contract_check": true,
+      "is_synthetic": true
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "pass": 4,
+    "warn": 2,
+    "fail": 0
+  },
+  "is_synthetic": true,
+  "scientific_warning": "PASS checks fixture consistency only; they do not validate scientific accuracy."
+}
