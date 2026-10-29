@@ -51,6 +51,7 @@ nufield-compare-posteriors = "nufield.benchmarking.posterior_archive_compare_cli
 nufield-profile-hdf5 = "nufield.data_registry.hdf5_profile_cli:main"
 nufield-physics = "nufield.cosmology.physics.cli:main"
 nufield-ai = "nufield.ai.cli:main"
+nufield-reconstruct = "nufield.reconstruction.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

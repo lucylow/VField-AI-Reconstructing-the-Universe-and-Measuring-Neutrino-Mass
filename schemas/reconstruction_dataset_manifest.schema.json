@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nufield/reconstruction-dataset-manifest.schema.json",
+  "title": "NUFIELD paired reconstruction dataset manifest",
+  "description": "Metadata sidecar required by the paired field reconstruction loader. Schema compliance is not scientific validation.",
+  "type": "object",
+  "required": ["schema_version", "data_type", "is_synthetic", "license", "array_units", "coordinate_system", "coordinate_unit"],
+  "properties": {
+    "schema_version": {"type": "string", "minLength": 1},
+    "data_type": {"type": "string", "minLength": 1},
+    "is_synthetic": {"type": "boolean"},
+    "license": {"type": "string", "minLength": 1},
+    "array_units": {"type": "object", "minProperties": 2, "additionalProperties": {"type": "string", "minLength": 1}},
+    "coordinate_system": {"type": "string", "minLength": 1},
+    "coordinate_unit": {"type": "string", "minLength": 1},
+    "periodic": {"type": "boolean"},
+    "box_size_mpc_h": {"type": "number", "exclusiveMinimum": 0},
+    "physics_level": {"type": "string"},
+    "random_seed": {"type": "integer", "minimum": 0},
+    "source_url": {"type": "string"},
+    "citation": {"type": "string"}
+  },
+  "additionalProperties": true
+}
