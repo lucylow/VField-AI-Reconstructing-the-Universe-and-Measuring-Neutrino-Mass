@@ -8,7 +8,7 @@ Can AI extract more neutrino-mass information from cosmological fields while pro
 
 
 
-
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/tech%20plan.png?raw=true)
 
 
 
