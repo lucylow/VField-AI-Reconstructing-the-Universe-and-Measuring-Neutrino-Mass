@@ -10,8 +10,8 @@
 
 VField is an open research-software project investigating how machine learning can help extract cosmological information from spatial fields without sacrificing statistical calibration, physical interpretability, or reproducibility. The software is organized around a simple research principle: **a more complicated neural model is useful only if a controlled experiment shows that it extracts additional information and remains reliable under independent validation.**
 
-This README is written as a technical guide to the current repository: its scientific goal, architecture, installation, dataset strategy, model choices, validation protocol, CLI workflows, reproducibility requirements, limitations, and roadmap. It is intentionally explicit about the distinction between software that runs and physics that has been validated.
 
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/tech%20plan.png?raw=true)
 ---
 
 ## Table of contents
