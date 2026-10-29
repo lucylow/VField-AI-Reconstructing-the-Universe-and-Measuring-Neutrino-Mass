@@ -12,7 +12,7 @@ Can AI extract more neutrino-mass information from cosmological fields while pro
 
 
 
-01 — Reconstruct the cosmic web
+**01 — Reconstruct the cosmic web**
 
 Recover latent initial density fields from evolved galaxy-density maps. Compare traditional reconstruction methods with neural models, using known simulated initial conditions as ground truth.
 
@@ -27,7 +27,7 @@ Recover latent initial density fields from evolved galaxy-density maps. Compare 
 
 
 
-02 — Fuse complementary evidence
+**02 — Fuse complementary evidence**
 
 Combine galaxy clustering with weak-lensing convergence maps and, in a later stage, CMB-derived information. Test whether the additional modalities improve constraints rather than just making the model more complicated.
 
@@ -42,6 +42,6 @@ Combine galaxy clustering with weak-lensing convergence maps and, in a later sta
 
 
 
-03 — Audit the AI's conclusions
+**03 — Audit the AI's conclusions**
 
 Quantify posterior calibration, parameter bias, sensitivity to observational systematics, and computational cost. The software must be able to demonstrate when its answer is unreliable.
