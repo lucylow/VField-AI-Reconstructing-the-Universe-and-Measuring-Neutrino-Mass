@@ -1,5 +1,7 @@
 # VField — AI for Reconstructing the Universe and Measuring Neutrino Mass
 
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/slide9.png?raw=true)
+
 > **Research software scaffold for cosmological field-level inference, neural simulation-based inference, multimodal observations, and dataset-quality engineering.**
 >
 > **Scientific status:** the repository currently includes synthetic demonstration data, approximate analysis components, validation utilities, and optional interfaces to external cosmology solvers. It does **not** yet establish a physical constraint on the sum of neutrino masses, and its default toy simulator is not a calibrated massive-neutrino simulation.
