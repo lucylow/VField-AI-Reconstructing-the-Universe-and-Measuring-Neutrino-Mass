@@ -4,6 +4,8 @@
 
 > **Research software scaffold for cosmological field-level inference, neural simulation-based inference, multimodal observations, and dataset-quality engineering.**
 >
+> https://v-field-ai-universe-reconstruction--lucylow.replit.app/
+>
 > **Scientific status:** the repository currently includes synthetic demonstration data, approximate analysis components, validation utilities, and optional interfaces to external cosmology solvers. It does **not** yet establish a physical constraint on the sum of neutrino masses, and its default toy simulator is not a calibrated massive-neutrino simulation.
 
 <p align="center">
