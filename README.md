@@ -1,6 +1,6 @@
 # VField — AI for Reconstructing the Universe and Measuring Neutrino Mass
 
-![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/slide9.png?raw=true)
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/h.png?raw=true)
 
 > **Research software scaffold for cosmological field-level inference, neural simulation-based inference, multimodal observations, and dataset-quality engineering.**
 >
@@ -73,6 +73,9 @@ The repository currently contains:
 - data intake, product review, provenance, dataset cards, grouped splits, cross-dataset comparisons, and data-quality gates;
 - uncertainty calibration, out-of-distribution diagnostics, posterior predictive checks, and benchmark comparison utilities;
 - command-line entry points for repeatable workflows.
+
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/slide9.png?raw=true)
+
 
 ### What VField is not yet
 
@@ -161,6 +164,8 @@ Use posterior uncertainty, ensemble disagreement, or parameter-space coverage to
 Explore bounded proposals over reviewed reconstruction hyperparameters or well-defined algorithmic variants. Evaluate candidates in isolated, reproducible runs with fixed evaluation data.
 
 **Evidence required:** independently reproducible improvement in a multi-objective score including science accuracy, calibration, robustness, compute and maintainability. LLM-generated suggestions are hypotheses; they are not scientific evidence.
+
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/t.png?raw=true)
 
 ---
 
@@ -635,6 +640,8 @@ nufield validate --dataset outputs/demo/dataset.npz --output-dir outputs/validat
 ```
 
 ### 10.3 Dataset engineering examples
+
+![](https://github.com/lucylow/VField-AI-Reconstructing-the-Universe-and-Measuring-Neutrino-Mass/blob/main/a.png?raw=true)
 
 ```bash
 # Synthetic dataset for software tests only
